@@ -20,3 +20,13 @@
 - idée pour contrer ce résidus de mauvaises réponses : chunker phrase par phrase ou ligne par ligne et RAGger dessus pour voir si on a un des réponses contenues dans une phrases qui sont noyées dans la "masse" d'un paragraphe
 
 ## Semaine 31 du 28/07/2025
+
+- premier test : pas très concluant, dans certains cas, on remonte juste une phrase alors qu'il faudrait remonterle paragraphe et inversement
+
+![img_1.png](img_1.png)
+
+[rapport-chunks-phrases.html](./rapport-chunks-phrases.html)
+
+
+Reflexion sur l'integration de golden queries
+Reflexion de l'intégration d'un lexique
