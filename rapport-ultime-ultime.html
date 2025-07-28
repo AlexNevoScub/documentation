@@ -1,0 +1,3161 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<title>Rapport de Test du <br> 24/07/2025 04:11:12</title>
+</head>
+
+<body class="bg-gray-100 text-gray-900 p-6">
+<div class="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
+	<h1 class="text-2xl font-bold text-center mb-4">Rapport de Test</h1>
+	<div class="grid grid-cols-3 gap-4 text-center">
+		<div class="p-4 bg-green-200 rounded-lg">
+			<h2 class="text-lg font-semibold">Réponses Correctes</h2>
+			<p class="text-2xl font-bold">50%</p>
+		</div>
+		<div class="p-4 bg-yellow-200 rounded-lg">
+			<h2 class="text-lg font-semibold">Réponses Incomplètes</h2>
+			<p class="text-2xl font-bold">33%</p>
+		</div>
+		<div class="p-4 bg-red-200 rounded-lg">
+			<h2 class="text-lg font-semibold">Réponses KO</h2>
+			<p class="text-2xl font-bold">15%</p>
+		</div>
+	</div>
+	<div class="grid grid-cols-3 gap-4 text-center">
+		<div class="p-4 bg-green-200 rounded-lg">
+			<h2 class="text-lg font-semibold">Vecto OK</h2>
+			<p class="text-2xl font-bold">70%</p>
+		</div>
+	</div>
+	<div class="mt-6">
+		<h2 class="text-xl font-bold mb-2">Configuration AI utilisée</h2>
+		<div class="p-4 bg-gray-100 rounded-lg">
+			<ul>
+				<li><strong>F1 Score moyen :</strong> 0,70</li>
+				<li><strong>Distance cosine moyenne :</strong> 0,39</li>
+				<li><strong>Coverage moyen :</strong> 66,77%</li>
+			</ul>
+		</div>
+	</div>
+	<div class="mt-6">
+		<h2 class="text-xl font-bold mb-2">Détails des Tests</h2>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details0')">
+			Quelle puissance peut absorber la PAC NEO-INVERTER 05 ?
+			VECTO : true
+		</button>
+		<div id="details0" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 1,3|kW</p>
+			<p><strong>Réponse obtenue:</strong> 1,3 kW.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,44</p>
+			<p><strong>Coverage :</strong> 50,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					a0489ff4-7b92-40eb-b40f-f4bb64f87eb0;Polytropic-Neo_Inverter-2024.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre -3°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit NEO INVERTER 05 la puissance absorbée max est de 1,3kW, le poids est de 47 kg
+					- Pour le produit NEO INVERTER 07, la puissance absorbée max est de 1,6kW, le poids est de 47 kg
+					- Pour le produit NEO INVERTER 08, la puissance absorbée max est de 1,8kW, le poids est de 53 kg
+					- Pour le produit NEO INVERTER 10, la puissance absorbée max est de 2.5kW, le poids est de 53 kg
+					- Pour le produit NEO INVERTER 12, la puissance absorbée max est de 2.9kW, le poids est de 57 kg
+					- Pour le produit NEO INVERTER 15, la puissance absorbée max est de 4.1kW, le poids est de 78 kg
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Neo_Inverter-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details5')">
+			Quelle est la différence de température de l'eau du bassin sur une journée grâce à la PAC NEO-INVERTER ?
+			VECTO : true
+		</button>
+		<div id="details5" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 1|°C|2|°C|jour</p>
+			<p><strong>Réponse obtenue:</strong> La différence de température de l'eau du bassin sur une journée
+				grâce à la PAC NEO-INVERTER est de 1°C à 2°C par jour.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,29</p>
+			<p><strong>Coverage :</strong> 61,90%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					a0489ff4-7b92-40eb-b40f-f4bb64f87eb0;Polytropic-Neo_Inverter-2024.pdf ; 4</p>
+				<p><strong> Page Document paragraphe:</strong>[3]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					WARNING:
+
+					Dans des conditions normales, une PAC adaptée permet de réchauffer l'eau du bassin de 1°C a 2°C
+					par jour.
+					Il est donc tout a fait normal de ne pas ressentir une différence de température en sortie de
+					circuit lorsque la PAC fonctionne.
+
+					- Le non-respect des avertissements pourrait causer des dommages a l'équipement de la piscine ou
+					entraîner de graves blessures, voire la mort. Seule une personne qualifiée dans les domaines
+					techniques concernés (électricité, hydraulique ou frigorifique), est habilitée a faire la
+					maintenance ou la réparation de l'appareil. Le technicien qualifié intervenant sur l'appareil
+					doit utiliser/porter un équipement de protection individuel (tels que lunettes de sécurité,
+					gants de protection, etc...) afin de réduire tout risque de blessure qui pourrait survenir lors
+					de sur l'appareil.
+
+					- Avant toute intervention sur l'appareil, s'assurer que celui-ci est hors tension et consigné.
+					- L'appareil est destiné a un usage spécifique pour les piscines et spas: il ne doit être
+					utilisé pour aucun autre usage que celui pour lequel il a été conçu.
+					- Cet appareil n'est pas destiné aux enfants.
+					- Cet appareil n'est pas conçu pour être utilisé par des personnes (y compris les enfants. de 8
+					ans et plus) inexpérimentées ou dont les capacités physiques, sensorielles ou mentales sont
+					réduites.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Neo_Inverter-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details8')">
+			Quel est le diamètre du tuyau pour raccorder la PAC CRYO Inverter au circuit hydrolique de la piscine ?
+			VECTO : true
+		</button>
+		<div id="details8" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 50|mm</p>
+			<p><strong>Réponse obtenue:</strong> Le diamètre du tuyau pour raccorder la PAC CRYO Inverter au circuit
+				hydrolique de la piscine est de 50 mm.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,28</p>
+			<p><strong>Coverage :</strong> 80,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					a0489ff4-7b92-40eb-b40f-f4bb64f87eb0;Polytropic-Neo_Inverter-2024.pdf ; 6</p>
+				<p><strong> Page Document paragraphe:</strong>[5]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Raccordement hydraulique:
+					- Qualité de l'eau nécessaire pour cet appareil: NF-EN-IB7I3-3
+					- LA PAC est compatible avec tout type de traitement de l'eau. La PAC est impérativement
+					raccordée en tuyau PVC de diamètre 50 mm sur le circuit hydraulique de la piscine, après le
+					filtre et avant le système de traitement quel qu'il soit (pompes doseuses CL, pH, BR et/ou
+					électrolyseur).
+					- Respecter le sens de raccordement hydraulique (bleu = eau entrante, rouge = eau sortante)
+					- Installer obligatoirement un by-pass pour faciliter les interventions sur la PAC.
+					- Avant de raccorder les tuyaux PVC sur la PAC, s'assurer que le circuit a été préalablement
+					nettoyé de tous résidus de travaux (cailloux, terre etc).</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [6]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Neo_Inverter-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details10')">
+			Quel est le poids de la PAC Morpheo XS ?
+			VECTO : true
+		</button>
+		<div id="details10" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 50|kg</p>
+			<p><strong>Réponse obtenue:</strong> 50 kg.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,51</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					6414da2a-233c-4d62-ac56-76bfcea181ba;Polytropic-Morpheo-2023.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre -3°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit MORPHEO XXS, la puissance absorbée max est de 1,0kW, le poids est de 48 kg
+					- Pour le produit MORPHEO XS, la puissance absorbée max est de 1,5kW, le poids est de 50 kg
+					- Pour le produit MORPHEO S, la puissance absorbée max est de 1,6kW, le poids est de 52 kg
+					- Pour le produit MORPHEO S+, la puissance absorbée max est de 2.5kW, le poids est de 54 kg</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Morpheo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details11')">
+			Quel est le poids de la PAC Morpheo S+ ?
+			VECTO : true
+		</button>
+		<div id="details11" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 54|kg</p>
+			<p><strong>Réponse obtenue:</strong> 54 kg.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,53</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					6414da2a-233c-4d62-ac56-76bfcea181ba;Polytropic-Morpheo-2023.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre -3°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit MORPHEO XXS, la puissance absorbée max est de 1,0kW, le poids est de 48 kg
+					- Pour le produit MORPHEO XS, la puissance absorbée max est de 1,5kW, le poids est de 50 kg
+					- Pour le produit MORPHEO S, la puissance absorbée max est de 1,6kW, le poids est de 52 kg
+					- Pour le produit MORPHEO S+, la puissance absorbée max est de 2.5kW, le poids est de 54 kg</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Morpheo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details12')">
+			La PAC Morpheo répond-elle à la norme IPX4 ?
+			VECTO : true
+		</button>
+		<div id="details12" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> oui</p>
+			<p><strong>Réponse obtenue:</strong> Oui. L'alimentation mentionne IPX4.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,48</p>
+			<p><strong>Coverage :</strong> 25,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					6414da2a-233c-4d62-ac56-76bfcea181ba;Polytropic-Morpheo-2023.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre -3°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit MORPHEO XXS, la puissance absorbée max est de 1,0kW, le poids est de 48 kg
+					- Pour le produit MORPHEO XS, la puissance absorbée max est de 1,5kW, le poids est de 50 kg
+					- Pour le produit MORPHEO S, la puissance absorbée max est de 1,6kW, le poids est de 52 kg
+					- Pour le produit MORPHEO S+, la puissance absorbée max est de 2.5kW, le poids est de 54 kg</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Morpheo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details15')">
+			Quelle est la différence de température de l'eau du bassin sur une journée grâce à la PAC Morpheo ?
+			VECTO : true
+		</button>
+		<div id="details15" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 1|°C|2|°C|jour</p>
+			<p><strong>Réponse obtenue:</strong> La différence de température de l'eau du bassin sur une journée
+				grâce à la PAC Morpheo est de 1°C à 2°C par jour.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,31</p>
+			<p><strong>Coverage :</strong> 61,90%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					6414da2a-233c-4d62-ac56-76bfcea181ba;Polytropic-Morpheo-2023.pdf ; 4</p>
+				<p><strong> Page Document paragraphe:</strong>[3]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					WARNING:
+
+					Dans des conditions normales, une PAC adaptée permet de réchauffer l'eau du bassin de 1°C a 2°C
+					par jour.
+					Il est donc tout a fait normal de ne pas ressentir une différence de température en sortie de
+					circuit lorsque la PAC fonctionne.
+
+					- Le non-respect des avertissements pourrait causer des dommages a l'équipement de la piscine ou
+					entraîner de graves blessures, voire la mort. Seule une personne qualifiée dans les domaines
+					techniques concernés (électricité, hydraulique ou frigorifique), est habilitée a faire la
+					maintenance ou la réparation de l'appareil. Le technicien qualifié intervenant sur l'appareil
+					doit utiliser/porter un équipement de protection individuel (tels que lunettes de sécurité,
+					gants de protection, etc...) afin de réduire tout risque de blessure qui pourrait survenir lors
+					de sur l'appareil.
+
+					- Avant toute intervention sur l'appareil, s'assurer que celui-ci est hors tension et consigné.
+					- L'appareil est destiné a un usage spécifique pour les piscines et spas: il ne doit être
+					utilisé pour aucun autre usage que celui pour lequel il a été conçu.
+					- Cet appareil n'est pas destiné aux enfants.
+					- Cet appareil n'est pas conçu pour être utilisé par des personnes (y compris les enfants. de 8
+					ans et plus) inexpérimentées ou dont les capacités physiques, sensorielles ou mentales sont
+					réduites.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Morpheo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details18')">
+			Quel est le diamètre du tuyau pour raccorder la PAC Morpheo au circuit hydrolique de la piscine ?
+			VECTO : true
+		</button>
+		<div id="details18" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 50|mm</p>
+			<p><strong>Réponse obtenue:</strong> Le diamètre du tuyau pour raccorder la PAC Morpheo au circuit
+				hydrolique de la piscine est de 50 mm.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,27</p>
+			<p><strong>Coverage :</strong> 84,21%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					6414da2a-233c-4d62-ac56-76bfcea181ba;Polytropic-Morpheo-2023.pdf ; 6</p>
+				<p><strong> Page Document paragraphe:</strong>[5]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Raccordement hydraulique:
+					- Qualité de l'eau nécessaire pour cet appareil: NF-EN-IB7I3-3
+					- LA PAC est compatible avec tout type de traitement de l'eau. La PAC est impérativement
+					raccordée en tuyau PVC de diamètre 50 mm sur le circuit hydraulique de la piscine, après le
+					filtre et avant le système de traitement quel qu'il soit (pompes doseuses CL, pH, BR et/ou
+					électrolyseur).
+					- Respecter le sens de raccordement hydraulique (bleu = eau entrante, rouge = eau sortante)
+					- Installer obligatoirement un by-pass pour faciliter les interventions sur la PAC.
+					- Avant de raccorder les tuyaux PVC sur la PAC, s'assurer que le circuit a été préalablement
+					nettoyé de tous résidus de travaux (cailloux, terre etc).</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [6]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Morpheo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details20')">
+			Quel est le poids de la JD PAC Access 1 ?
+			VECTO : true
+		</button>
+		<div id="details20" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 38|kg</p>
+			<p><strong>Réponse obtenue:</strong> 38 kg.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,52</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					45cfd182-291e-4811-9f20-f4306809d6bc;Polytropic-JD_PAC_Access-2024.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre 0°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit JD PAC ACCESS 1, la puissance absorbée max est de 1,5kW, le poids est de 38 kg
+					- Pour le produit JD PAC ACCESS 2, la puissance absorbée max est de 1,6kW, le poids est de 40 kg
+					- Pour le produit JD PAC ACCESS 3, la puissance absorbée max est de 2,4kW, le poids est de 57 kg
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-JD_PAC_Access-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details21')">
+			Quel est le poids de la JD PAC Access 3 ?
+			VECTO : true
+		</button>
+		<div id="details21" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 57|kg</p>
+			<p><strong>Réponse obtenue:</strong> 57 kg.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,54</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					45cfd182-291e-4811-9f20-f4306809d6bc;Polytropic-JD_PAC_Access-2024.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre 0°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit JD PAC ACCESS 1, la puissance absorbée max est de 1,5kW, le poids est de 38 kg
+					- Pour le produit JD PAC ACCESS 2, la puissance absorbée max est de 1,6kW, le poids est de 40 kg
+					- Pour le produit JD PAC ACCESS 3, la puissance absorbée max est de 2,4kW, le poids est de 57 kg
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-JD_PAC_Access-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details22')">
+			La JD PAC Access répond-elle à la norme IPX4 ?
+			VECTO : true
+		</button>
+		<div id="details22" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> oui</p>
+			<p><strong>Réponse obtenue:</strong> Oui. L'alimentation mentionne IPX4.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,49</p>
+			<p><strong>Coverage :</strong> 25,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					45cfd182-291e-4811-9f20-f4306809d6bc;Polytropic-JD_PAC_Access-2024.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre 0°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit JD PAC ACCESS 1, la puissance absorbée max est de 1,5kW, le poids est de 38 kg
+					- Pour le produit JD PAC ACCESS 2, la puissance absorbée max est de 1,6kW, le poids est de 40 kg
+					- Pour le produit JD PAC ACCESS 3, la puissance absorbée max est de 2,4kW, le poids est de 57 kg
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-JD_PAC_Access-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details25')">
+			Quelle est la différence de température de l'eau du bassin sur une journée grâce à la JD PAC Access ?
+			VECTO : true
+		</button>
+		<div id="details25" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 1|°C|2|°C|jour</p>
+			<p><strong>Réponse obtenue:</strong> La différence de température de l'eau du bassin sur une journée
+				grâce à la JD PAC Access est de 1°C à 2°C par jour.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,28</p>
+			<p><strong>Coverage :</strong> 59,09%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					45cfd182-291e-4811-9f20-f4306809d6bc;Polytropic-JD_PAC_Access-2024.pdf ; 4</p>
+				<p><strong> Page Document paragraphe:</strong>[3]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					WARNING:
+
+					Dans des conditions normales, une PAC adaptée permet de réchauffer l'eau du bassin de 1°C a 2°C
+					par jour.
+					Il est donc tout a fait normal de ne pas ressentir une différence de température en sortie de
+					circuit lorsque la PAC fonctionne.
+
+					- Le non-respect des avertissements pourrait causer des dommages a l'équipement de la piscine ou
+					entraîner de graves blessures, voire la mort. Seule une personne qualifiée dans les domaines
+					techniques concernés (électricité, hydraulique ou frigorifique), est habilitée a faire la
+					maintenance ou la réparation de l'appareil. Le technicien qualifié intervenant sur l'appareil
+					doit utiliser/porter un équipement de protection individuel (tels que lunettes de sécurité,
+					gants de protection, etc...) afin de réduire tout risque de blessure qui pourrait survenir lors
+					de sur l'appareil.
+
+					- Avant toute intervention sur l'appareil, s'assurer que celui-ci est hors tension et consigné.
+					- L'appareil est destiné a un usage spécifique pour les piscines et spas: il ne doit être
+					utilisé pour aucun autre usage que celui pour lequel il a été conçu.
+					- Cet appareil n'est pas destiné aux enfants.
+					- Cet appareil n'est pas conçu pour être utilisé par des personnes (y compris les enfants. de 8
+					ans et plus) inexpérimentées ou dont les capacités physiques, sensorielles ou mentales sont
+					réduites.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-JD_PAC_Access-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details29')">
+			Quelle puissance d'alimentation est nécessaire pour la JD PAC Access 1 ?
+			VECTO : false
+		</button>
+		<div id="details29" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 230|V|50|Hz</p>
+			<p><strong>Réponse obtenue:</strong> L'alimentation requise pour la JD PAC Access 1 est de 230 V
+				monophasé, 50 Hz. Le courant nominal est de 3,1 A (avec un maximum de 6,5 A), nécessitant une
+				protection par disjoncteur 10 A.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,27</p>
+			<p><strong>Coverage :</strong> 91,43%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					45cfd182-291e-4811-9f20-f4306809d6bc;Polytropic-JD_PAC_Access-2024.pdf ; 5</p>
+				<p><strong> Page Document paragraphe:</strong>[4]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					DONNEES TECHNIQUES
+
+					Le modèle JD PAC Access 01 est classé 4,0 selon la norme EN 17645 et appartient à la catégorie
+					C. Il est recommandé pour des bassins de 20 à 30 m³, pour une utilisation de mai à septembre
+					avec couverture. Par conditions d’air à 27 °C et eau à 27 °C avec une humidité relative de 80 %,
+					cette pompe restitue une puissance de 3,8 kW avec un coefficient de performance (COP) de 4,6.
+					Lorsque la température de l’air passe à 15 °C et celle de l’eau à 26 °C (70 % HR), la puissance
+					restituée tombe à 2,9 kW, avec un COP de 4,2. Par conditions plus froides, soit air à 7 °C et
+					eau à 26 °C (90 % HR), elle fournit 2,1 kW pour un COP de 2,7. Son niveau sonore est de 33 dB(A)
+					et sa plage de fonctionnement s’étend de 0 °C à 38 °C. Le réfrigérant utilisé est le R32.
+
+					Pour l’installation, le raccordement hydraulique est de 1,5 pouces/50 mm. L’alimentation requise
+					est de 230 V monophasé, 50 Hz. Le courant nominal est de 3,1 A (avec un maximum de 6,5 A),
+					nécessitant une protection par disjoncteur 10 A (un câble de 3G 2,5 mm² sur 20 m). La puissance
+					absorbée maximale atteint 1,5 kW. Le débit d’eau minimum est de 3 m³/h, avec une perte de charge
+					de 5 kPa. Les dimensions sont 781 mm de long, 259 mm de large et 547 mm de hauteur. Le poids net
+					est de 36 kg (40 kg brut).
+
+					Le modèle JD PAC Access 02 a une classification EN 17645 de 5,0 (toujours catégorie C),
+					recommandé pour des bassins de 30 à 40 m³. Sous air à 27 °C et eau à 27 °C (80 % HR), il
+					restitue 5,8 kW pour un COP de 4,6. En température plus fraîche (air à 15 °C, eau à 26 °C, 70 %
+					HR), la puissance est de 4,8 kW avec un COP de 4,3, et par air à 7 °C, eau à 26 °C (90 % HR),
+					elle est de 3,2 kW pour un COP de 3,7. Le niveau acoustique est toujours de 33 dB(A), et la
+					plage de fonctionnement, comprise entre 0 et 38 °C, avec utilisation du réfrigérant R32.
+
+					Ce modèle aussi possède un raccordement hydraulique de 1,5 pouces/50 mm, s'alimente en 230 V
+					monophasé, 50 Hz, et consomme 4,7 A en nominal (maximum 7,0 A). La protection recommandée est
+					aussi un disjoncteur 10 A avec câble de 3G 2,5 mm² sur 20 m. La puissance maximale absorbée est
+					de 1,6 kW. Le débit d’eau minimum est également de 3 m³/h, les pertes de charge étant identiques
+					(5 kPa). Les dimensions sont 781 mm x 259 mm x 547 mm et le poids net de 38 kg (42 kg brut).
+
+					Le modèle JD PAC Access 03 se distingue par une classification EN 17645 de 5,1 (toujours
+					catégorie C) et convient pour des bassins de 40 à 50 m³. À air 27 °C, eau 27 °C (80 % HR), il
+					délivre 8,7 kW pour un COP de 5,0. Par air à 15 °C, eau à 26 °C (70 % HR), la puissance
+					restituée atteint 6,5 kW avec un COP de 4,3, et à air 7 °C, eau 26 °C (90 % HR), elle est de
+					4,8 kW pour un COP de 3,6. Le niveau de bruit est de 34 dB(A) et la plage de fonctionnement de 0
+					à 38 °C, avec le même gaz R32.
+
+					Au niveau installation, il garde le raccordement 1,5 pouces/50 mm et nécessite une alimentation
+					230 V monophasé, 50 Hz, pour un courant nominal de 7,0 A (maximum 10,5 A). Il faut prévoir un
+					disjoncteur 16 A et un câble de 3G 2,5 mm² sur 20 m. La puissance absorbée maximale monte à
+					2,4 kW, le débit d’eau minimum à 4 m³/h, pour une perte de charge de 5 kPa. Ce modèle est plus
+					volumineux avec des dimensions de 832 mm x 312 mm x 700 mm et un poids net de 50 kg (brut
+					59 kg).
+
+					Ainsi, chaque modèle est adapté à un volume de bassin différent, avec une puissance et un
+					rendement qui évoluent en fonction des conditions climatiques, tout en respectant des exigences
+					communes de raccordement, d’alimentation électrique et de pertes hydrauliques.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2, 9]</p>
+				<p><strong>Document concerné :</strong> Polytropic-JD_PAC_Access-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details30')">
+			Quelle puissance maximum peut absorber la PAC Ottimo S+ ?
+			VECTO : true
+		</button>
+		<div id="details30" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 2,6|kW</p>
+			<p><strong>Réponse obtenue:</strong> 2,6 kW.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,43</p>
+			<p><strong>Coverage :</strong> 50,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					7cc03a1b-a306-4895-9473-ca98a8fbe4f4;Polytropic-Ottimo-2023.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre I0°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit Ottima X, la puissance absorbée max est de 1,5kW, le poids est de 62.8kg
+					- Pour le Produit: Ottimo S la puissance absorbée max est de 2,4kW, le poids est de 67kg
+					- Pour le Produit: Ottimo S+ la puissance absorbée max est de 2,6kW, le poids est de 68.2kg
+					- Pour le Produit: Ottimo M la puissance absorbée max est de 3,3kW, le poids est de 73.8kg
+					- Pour le Produit: Ottimo M la puissance absorbée max est de 3,6kW, le poids est de 74.4kg</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Ottimo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details31')">
+			Quelle est l'altitude maximum pour utiliser la PAC Ottimo ?
+			VECTO : true
+		</button>
+		<div id="details31" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 2000|m</p>
+			<p><strong>Réponse obtenue:</strong> L'altitude maximale d'utilisation de la PAC Ottimo est de 2000 m.
+			</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,32</p>
+			<p><strong>Coverage :</strong> 72,73%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					7cc03a1b-a306-4895-9473-ca98a8fbe4f4;Polytropic-Ottimo-2023.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre I0°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit Ottima X, la puissance absorbée max est de 1,5kW, le poids est de 62.8kg
+					- Pour le Produit: Ottimo S la puissance absorbée max est de 2,4kW, le poids est de 67kg
+					- Pour le Produit: Ottimo S+ la puissance absorbée max est de 2,6kW, le poids est de 68.2kg
+					- Pour le Produit: Ottimo M la puissance absorbée max est de 3,3kW, le poids est de 73.8kg
+					- Pour le Produit: Ottimo M la puissance absorbée max est de 3,6kW, le poids est de 74.4kg</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Ottimo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details35')">
+			Quelle est la différence de température de l'eau du bassin sur une journée grâce grâce à la PAC Ottimo ?
+			VECTO : true
+		</button>
+		<div id="details35" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 1|°C|2|°C|jour</p>
+			<p><strong>Réponse obtenue:</strong> La différence de température de l'eau du bassin sur une journée
+				grâce à la PAC Ottimo est de 1°C à 2°C par jour.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,29</p>
+			<p><strong>Coverage :</strong> 61,90%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					7cc03a1b-a306-4895-9473-ca98a8fbe4f4;Polytropic-Ottimo-2023.pdf ; 4</p>
+				<p><strong> Page Document paragraphe:</strong>[3]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					WARNING:
+
+					Dans des conditions normales, une PAC adaptée permet de réchauffer l'eau du bassin de 1°C a 2°C
+					par jour.
+					Il est donc tout a fait normal de ne pas ressentir une différence de température en sortie de
+					circuit lorsque la PAC fonctionne.
+
+					- Le non-respect des avertissements pourrait causer des dommages a l'équipement de la piscine ou
+					entraîner de graves blessures, voire la mort. Seule une personne qualifiée dans les domaines
+					techniques concernés (électricité, hydraulique ou frigorifique), est habilitée a faire la
+					maintenance ou la réparation de l'appareil. Le technicien qualifié intervenant sur l'appareil
+					doit utiliser/porter un équipement de protection individuel (tels que lunettes de sécurité,
+					gants de protection, etc...) afin de réduire tout risque de blessure qui pourrait survenir lors
+					de sur l'appareil.
+
+					- Avant toute intervention sur l'appareil, s'assurer que celui-ci est hors tension et consigné.
+					- L'appareil est destiné a un usage spécifique pour les piscines et spas: il ne doit être
+					utilisé pour aucun autre usage que celui pour lequel il a été conçu.
+					- Cet appareil n'est pas destiné aux enfants.
+					- Cet appareil n'est pas conçu pour être utilisé par des personnes (y compris les enfants. de 8
+					ans et plus) inexpérimentées ou dont les capacités physiques, sensorielles ou mentales sont
+					réduites.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Ottimo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details39')">
+			Quelle est la longueur de câble maximale entre la PAC Ottimo XM et la protection en tête de ligne pour une section de 4 mm2 ?
+			VECTO : false
+		</button>
+		<div id="details39" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 30|m</p>
+			<p><strong>Réponse obtenue:</strong> 30 mètres.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,55</p>
+			<p><strong>Coverage :</strong> 50,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					7cc03a1b-a306-4895-9473-ca98a8fbe4f4;Polytropic-Ottimo-2023.pdf ; 7</p>
+				<p><strong> Page Document paragraphe:</strong>[6]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Spécificités Installation électrique par modèle Ottimo:
+
+					- Pour un modèle Ottimo XS ou S: l'alimentation nécessaire est 3G 230V, la protection de tête de
+					ligne doit être de 16 A, la longueur maximale du cable d'alimentation en fonction de la section
+					doit être de :
+					- 29 m pour du 2.5mm carré
+					- 45 m pour du 4mm carré
+					- 66 m pour du 6mm carré
+					- 110 m pour du 10mm carré
+
+					- Pour un modèle Ottimo S+: l'alimentation nécessaire est 3G 230V, la protection de tête de
+					ligne doit être de 20 A, la longueur maximale du cable d'alimentation en fonction de la section
+					doit être de :
+					- 24 m pour du 2.5mm carré
+					- 39 m pour du 4mm carré
+					- 56 m pour du 6mm carré
+					- 96 m pour du 10mm carré
+
+					- Pour un modèle Ottimo M ou XM: l'alimentation nécessaire est 3G 230V, la protection de tête de
+					ligne doit être de 25 A, la longueur maximale du cable d'alimentation en fonction de la section
+					doit être de :
+					- 19 m pour du 2.5mm carré
+					- 30 m pour du 4mm carré
+					- 44 m pour du 6mm carré
+					- 75 m pour du 10mm carré
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [9]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Ottimo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details40')">
+			Quel est le calibrage d'usine du pressostat de sécurité de la PAC RAK ?
+			VECTO : true
+		</button>
+		<div id="details40" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 38|Bar</p>
+			<p><strong>Réponse obtenue:</strong> 38 Bar.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,57</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> 58a91a5c-51ac-494c-b5b4-c2e15212f7d3;Polytropic-RAK-20_1.pdf ;
+					6</p>
+				<p><strong> Page Document paragraphe:</strong>[5]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Pressostat
+
+					Les pompes a chaleur Polytropic sont équipées d'un pressostat de sécurité HP, celui-ci est un
+					pressostat normalement ouvert calibré en usine a 38 Bar.
+
+					Limites de fonctionnement
+
+					Pour un dimensionnement optimal, la pompe a chaleur doit étre sélectionnée par Polytropic a
+					l'aide de la fiche de sélection disponible sur demande. Les modéles de pompe a chaleur Advance
+					sont concues pour fonctionner a partir d'une température de 0°C extérieur et jusqu’a +35°C avec
+					une couverture sur la piscine. Les modéles de pompe a chaleur Master sont concues pour
+					fonctionner a partir d'une température de - 15°C extérieur et jusqu’a +35°C avec une couverture
+					sur la piscine.
+
+					Dans le cas d’une utilisation par températures négatives, particulierement s'il y a un impératif
+					de température il est conseillé d’ajouter un appoint électrique (contactez votre revendeur). En
+					dehors de ces données, et pour un produit qui n’aurait pas été sélectionné avec de Polytropic,
+					Polytropic ne saurait étre tenu pour responsable d’un fonctionnement anormal, incorrect ou
+					insuffisant de l'appareil. Avant installation, il est conseillé de vérifier que l'impédance du
+					circuit électrique alimentant la pompe a chaleur ne dépasse pas 0.042 ohm. Si nécessaire,
+					contacter votre fournisseur d’électricité afin de connaitre l'impédance de votre installation.
+					Dans le cas ou le fournisseur d’électricité ne peut pas proposer de solution, cela peut
+					engendrer de légéres pertes de tension sur I’installation électrique lors du démarrage de la
+					pompe a chaleur.
+
+					Symbole attention: La pression du circuit d'eau ne doit pas dépasser 2 bars</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [6]</p>
+				<p><strong>Document concerné :</strong> Polytropic-RAK-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details43')">
+			À quelle distance du bassin doit être installée la PAC RAK ?
+			VECTO : true
+		</button>
+		<div id="details43" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> plus|2|m</p>
+			<p><strong>Réponse obtenue:</strong> La PAC RAK doit être installée a plus de 2 m du bassin.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,24</p>
+			<p><strong>Coverage :</strong> 76,92%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> 58a91a5c-51ac-494c-b5b4-c2e15212f7d3;Polytropic-RAK-20_1.pdf ;
+					9</p>
+				<p><strong> Page Document paragraphe:</strong>[8]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Distance du bassin
+					Lieu d'installation :
+					L'appareil doit étre installé a l'extérieur a plus de 2 m du bassin selon les lois en vigueur
+					(NF C 15 100).</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [9]</p>
+				<p><strong>Document concerné :</strong> Polytropic-RAK-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details44')">
+			Combien de vannes contient le by-pass raccordant la PAC RAK au circuit de filtration ?
+			VECTO : true
+		</button>
+		<div id="details44" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 3</p>
+			<p><strong>Réponse obtenue:</strong> 3 vannes.</p>
+			<p><strong>F1 Score :</strong> 0,67</p>
+			<p><strong>Distance cosine :</strong> 0,53</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> 58a91a5c-51ac-494c-b5b4-c2e15212f7d3;Polytropic-RAK-20_1.pdf ;
+					10</p>
+				<p><strong> Page Document paragraphe:</strong>[9]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Raccordement de l'eau:
+
+					La pompe a chaleur est raccordée au circuit de filtration avec un by-pass constitué de 3 vannes.
+					Le by-pass doit impérativement étre placé aprés la pompe et le systéme de filtration, en
+					utilisant un filtre afin d’éviter la présence d’impuretés dans le réservoir de la machine. Un
+					kit by-pass est disponible en option. ll permet de régler le débit d'eau qui passe dans la pompe
+					a chaleur et d’isoler complétement la pompe a chaleur, pour la maintenance, sans couper le débit
+					de filtration.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [10, 13]</p>
+				<p><strong>Document concerné :</strong> Polytropic-RAK-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details45')">
+			Quel est le calibre de disjoncteur recommandé pour la PAC RAK 30 ?
+			VECTO : true
+		</button>
+		<div id="details45" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 16|A</p>
+			<p><strong>Réponse obtenue:</strong> D 16 A.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,62</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> 58a91a5c-51ac-494c-b5b4-c2e15212f7d3;Polytropic-RAK-20_1.pdf ;
+					11</p>
+				<p><strong> Page Document paragraphe:</strong>[10]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					GUIDE SELECTION DISJONCTEUR ET CABLE POUR RAK
+
+
+					- Pour un modèle RAK 30: l'alimentation nécessaire est 5G 400V, la protection de tête de ligne
+					doit être de D 16 A, la longueur maximale du cable d'alimentation en fonction de la section doit
+					être de :
+					- 80 ml pour du 2.5mm carré
+					- 160 ml pour du 4mm carré
+					- 240 ml pour du 6mm carré
+					- 400 ml pour du 10mm carré
+
+					- Pour un modèle RAK 45: l'alimentation nécessaire est 5G 400V, la protection de tête de ligne
+					doit être de D 32 A, la longueur maximale du cable d'alimentation en fonction de la section doit
+					être de :
+					- 80 ml pour du 4mm carré
+					- 120 ml pour du 6mm carré
+					- 200 ml pour du 10mm carré
+
+					- Pour un modèle RAK 70: l'alimentation nécessaire est 5G 400V, la protection de tête de ligne
+					doit être de D 50 A, la longueur maximale du cable d'alimentation en fonction de la section doit
+					être de :
+					- 130 ml pour du 10mm carré
+					- 205 ml pour du 16mm carré
+
+					- Pour un modèle RAK 90: l'alimentation nécessaire est 5G 400V, la protection de tête de ligne
+					doit être de D 63 A, la longueur maximale du cable d'alimentation en fonction de la section doit
+					être de :
+					- 145 ml pour du 16mm carré</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [11]</p>
+				<p><strong>Document concerné :</strong> Polytropic-RAK-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details51')">
+			Quel est le calibrage d'usine du pressostat de sécurité de la PAC Advance-Master ?
+			VECTO : true
+		</button>
+		<div id="details51" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 38|Bar</p>
+			<p><strong>Réponse obtenue:</strong> Le pressostat de sécurité de la PAC Advance-Master est calibré en
+				usine à 38 Bar.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,39</p>
+			<p><strong>Coverage :</strong> 78,57%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					acab79bb-47df-42f4-89cd-4b324c28c2b0;Polytropic-Advance_Master-20_0.pdf ; 4</p>
+				<p><strong> Page Document paragraphe:</strong>[3]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Pressostat
+
+					Les pompes a chaleur Polytropic sont équipées d'un pressostat de sécurité HP, celui-ci est un
+					pressostat normalement ouvert calibré en usine a 38 Bar.
+
+					Limites de fonctionnement
+
+					Pour un dimensionnement optimal, la pompe a chaleur doit étre sélectionnée par Polytropic a
+					l'aide de la fiche de sélection disponible sur demande. Les modéles de pompe a chaleur Advance
+					sont concues pour fonctionner a partir d'une température de 0°C extérieur et jusqu’a +35°C avec
+					une couverture sur la piscine. Les modéles de pompe a chaleur Master sont concues pour
+					fonctionner a partir d'une température de - 15°C extérieur et jusqu’a +35°C avec une couverture
+					sur la piscine.
+
+					Dans le cas d’une utilisation par températures négatives, particulierement s'il y a un impératif
+					de température il est conseillé d’ajouter un appoint électrique (contactez votre revendeur). En
+					dehors de ces données, et pour un produit qui n’aurait pas été sélectionné avec de Polytropic,
+					Polytropic ne saurait étre tenu pour responsable d’un fonctionnement anormal, incorrect ou
+					insuffisant de l'appareil. Avant installation, il est conseillé de vérifier que l'impédance du
+					circuit électrique alimentant la pompe a chaleur ne dépasse pas 0.042 ohm. Si nécessaire,
+					contacter votre fournisseur d’électricité afin de connaitre l'impédance de votre installation.
+					Dans le cas ou le fournisseur d’électricité ne peut pas proposer de solution, cela peut
+					engendrer de légéres pertes de tension sur I’installation électrique lors du démarrage de la
+					pompe a chaleur.
+
+					Symbole attention: La pression du circuit d'eau ne doit pas dépasser 2 bars</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Advance_Master-20_0.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details52')">
+			Quelle est la pression maximale du circuit d'eau de la PAC Advance-Master ?
+			VECTO : false
+		</button>
+		<div id="details52" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 2|bar</p>
+			<p><strong>Réponse obtenue:</strong> La pression maximale du circuit d'eau de la PAC Advance-Master ne
+				doit pas dépasser 2 bars.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,42</p>
+			<p><strong>Coverage :</strong> 68,75%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					acab79bb-47df-42f4-89cd-4b324c28c2b0;Polytropic-Advance_Master-20_0.pdf ; 4</p>
+				<p><strong> Page Document paragraphe:</strong>[3]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Pressostat
+
+					Les pompes a chaleur Polytropic sont équipées d'un pressostat de sécurité HP, celui-ci est un
+					pressostat normalement ouvert calibré en usine a 38 Bar.
+
+					Limites de fonctionnement
+
+					Pour un dimensionnement optimal, la pompe a chaleur doit étre sélectionnée par Polytropic a
+					l'aide de la fiche de sélection disponible sur demande. Les modéles de pompe a chaleur Advance
+					sont concues pour fonctionner a partir d'une température de 0°C extérieur et jusqu’a +35°C avec
+					une couverture sur la piscine. Les modéles de pompe a chaleur Master sont concues pour
+					fonctionner a partir d'une température de - 15°C extérieur et jusqu’a +35°C avec une couverture
+					sur la piscine.
+
+					Dans le cas d’une utilisation par températures négatives, particulierement s'il y a un impératif
+					de température il est conseillé d’ajouter un appoint électrique (contactez votre revendeur). En
+					dehors de ces données, et pour un produit qui n’aurait pas été sélectionné avec de Polytropic,
+					Polytropic ne saurait étre tenu pour responsable d’un fonctionnement anormal, incorrect ou
+					insuffisant de l'appareil. Avant installation, il est conseillé de vérifier que l'impédance du
+					circuit électrique alimentant la pompe a chaleur ne dépasse pas 0.042 ohm. Si nécessaire,
+					contacter votre fournisseur d’électricité afin de connaitre l'impédance de votre installation.
+					Dans le cas ou le fournisseur d’électricité ne peut pas proposer de solution, cela peut
+					engendrer de légéres pertes de tension sur I’installation électrique lors du démarrage de la
+					pompe a chaleur.
+
+					Symbole attention: La pression du circuit d'eau ne doit pas dépasser 2 bars</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [5]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Advance_Master-20_0.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details53')">
+			À quelle distance du bassin doit être installée la PAC Advance-Master ?
+			VECTO : true
+		</button>
+		<div id="details53" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> plus|2|m</p>
+			<p><strong>Réponse obtenue:</strong> La PAC Advance-Master doit être installée à plus de 2 mètres du
+				bassin.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,24</p>
+			<p><strong>Coverage :</strong> 58,33%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					acab79bb-47df-42f4-89cd-4b324c28c2b0;Polytropic-Advance_Master-20_0.pdf ; 5</p>
+				<p><strong> Page Document paragraphe:</strong>[4]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Distance du bassin : Attention L'appareil doit étre installé a l'extérieur a plus de 2 m du
+					bassin selon les lois en vigueur (NF C 15 100).</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [5]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Advance_Master-20_0.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details55')">
+			Combien de vannes contient le by-pass raccordant la PAC Advance-Master au circuit de filtration ?
+			VECTO : true
+		</button>
+		<div id="details55" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 3</p>
+			<p><strong>Réponse obtenue:</strong> 3 vannes.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,53</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					acab79bb-47df-42f4-89cd-4b324c28c2b0;Polytropic-Advance_Master-20_0.pdf ; 6</p>
+				<p><strong> Page Document paragraphe:</strong>[5]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Raccordement de l'eau:
+
+					La pompe a chaleur est raccordée au circuit de filtration avec un by-pass constitué de 3 vannes.
+					Le by-pass doit impérativement étre placé aprés la pompe et le systéme de filtration, en
+					utilisant un filtre afin d’éviter la présence d’impuretés dans le réservoir de la machine. Un
+					kit by-pass est disponible en option. ll permet de régler le débit d'eau qui passe dans la pompe
+					a chaleur et d’isoler complétement la pompe a chaleur, pour la maintenance, sans couper le débit
+					de filtration.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [6]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Advance_Master-20_0.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details56')">
+			Quel est le calibre de disjoncteur recommandé pour la PAC Advance-Master XM ?
+			VECTO : true
+		</button>
+		<div id="details56" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 25|A</p>
+			<p><strong>Réponse obtenue:</strong> 25 A.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,62</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					acab79bb-47df-42f4-89cd-4b324c28c2b0;Polytropic-Advance_Master-20_0.pdf ; 6</p>
+				<p><strong> Page Document paragraphe:</strong>[5]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Spécificités Installation électrique par modèle Advance master:
+
+					- Pour un modèle Advance master XS ou S: l'alimentation nécessaire est 3G 230V, la protection de
+					tête de ligne doit être de 16 A, la longueur maximale du cable d'alimentation en fonction de la
+					section doit être de :
+					- 25 m pour du 2.5mm carré
+					- 35 m pour du 4mm carré
+					- 45 m pour du 6mm carré
+					- 80 m pour du 10mm carré
+
+					- Pour un modèle Advance master M: l'alimentation nécessaire est 3G 230V, la protection de tête
+					de ligne doit être de 20 A, la longueur maximale du cable d'alimentation en fonction de la
+					section doit être de :
+					- 30 m pour du 4mm carré
+					- 40m pour du 6mm carré
+					- 70 m pour du 10mm carré
+
+					- Pour un modèle Advance master XM: l'alimentation nécessaire est 3G 230V, la protection de tête
+					de ligne doit être de 25 A, la longueur maximale du cable d'alimentation en fonction de la
+					section doit être de :
+					- 25 m pour du 4mm carré
+					- 35 m pour du 6mm carré
+					- 60 m pour du 10mm carré
+
+					- Pour un modèle Advance master XMT ou L ou XL: l'alimentation nécessaire est 5G 230V, la
+					protection de tête de ligne doit être de 3 x 16 A, la longueur maximale du cable d'alimentation
+					en fonction de la section doit être de :
+					- 100 m pour du 2.5mm carré
+					- 150 m pour du 4mm carré
+					- 200 m pour du 6mm carré
+					- 300 m pour du 10mm carré
+
+					Longueur maximum de cable entre la pompe a chaleur et la protection en téte de ligne
+					(Disjoncteur différentiel courbe D)
+					lL est préférable d'utiliser des cosses a sertir afin que le contact soit parfait entre le cable
+					d’alimentation et le bornier.
+					Ces valeurs sont données à titre indicatif, seule l'intervention d’un électricien habilité vous
+					permettra de déterminer les valeurs correspondantes a votre installation. La ligne électrique
+					doit impérativement étre équipée d'une prise a la terre et d'un disjoncteur a différentiel 30 mA
+					en téte.
+					Un coffret mural, spécialement adapté a chaque machine, contenant le disjoncteur et le
+					différentiel est disponible en option</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [6]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Advance_Master-20_0.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details57')">
+			À quelle température extérieure est-il possible d'installer la PAC Advance ?
+			VECTO : true
+		</button>
+		<div id="details57" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 0|35|°C</p>
+			<p><strong>Réponse obtenue:</strong> La température extérieure doit être comprise entre 0 et +35°C
+				(Modéles Advance) -15 et + 35°C (Modéles Master).</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,33</p>
+			<p><strong>Coverage :</strong> 58,82%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					acab79bb-47df-42f4-89cd-4b324c28c2b0;Polytropic-Advance_Master-20_0.pdf ; 8</p>
+				<p><strong> Page Document paragraphe:</strong>[7]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Utilisation
+
+					Mise en eau :
+
+					Une fois l'appareil relié au circuit d'eau avec le by-pass, et relié au circuit électrique par
+					un professionnel, s’assurer que:
+					- La machine est bien horizontale (niveau).
+					- Le circuit d’eau est purgé de qui pourrait rester dans les tuyaux et la machine.
+					- Le circuit d'eau soit bien raccordé (pas de fuites ni de détérioration des raccords
+					hydrauliques, bon serrage des raccords a visser).
+					- Le circuit électrique est bien raccordé (bon serrage des cables sur les bornes et disjoncteur
+					intermédiaire), bien isolé et relié a la terre.
+					- Les conditions d’installation et d'utilisation décrites precédemment sont bien respectées.
+					- La température extérieure est comprise entre : 0 et +35°C (Modéles Advance) -15 et + 35°C
+					(Modéles Master)
+					- La température de l'eau comprise entre 15 et 30°C.
+
+					Vous pouvez alors mettre votre machine en marche, pour cela, veillez a bien suivre les points
+					suivants dans pour chaque mise en route de la machine en début de saison):
+					- Ouvrir les 3 vannes du By-pass.
+					- Fermer a moitié la vanne de réglage.
+					- Démarrer la pompe du systéme de filtration.
+					- Mettre la pompe a chaleur sous tension et démarrer-la en plagant l'interrupteur de
+					marche/arrét sur « | » (marche).
+					- Vérifier que la machine démarre et s’arréte bien en méme temps que le circuit de filtration :
+					en cas de non détection d’eau dans la machine, l’afficheur indique « FLO ».
+					- La machine se met en route aprés une temporisation de quelques minutes.
+					- Régler la température (chapitre « Régulation »).
+					- Régler le débit d'eau (chapitre « Réglage du débit d'eau »)
+					- Au bout de quelques minutes (temps de chauffe du circuit) vous pouvez régler le débit d'eau
+					comme (Chapitre « Réglage du débit d’eau »). Aprés cela, mettre en place la bache et laisser la
+					pompe a chaleur fonctionner plusieurs jours (pompe de filtration en « marche forcée », jusqu’a
+					ce que atteigne la température désirée.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [8]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Advance_Master-20_0.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details58')">
+			À quelle température extérieure est-il possible d'installer la PAC Master ?
+			VECTO : true
+		</button>
+		<div id="details58" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> -15|35|°C</p>
+			<p><strong>Réponse obtenue:</strong> La température extérieure doit être comprise entre -15 et + 35°C.
+			</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,40</p>
+			<p><strong>Coverage :</strong> 60,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					acab79bb-47df-42f4-89cd-4b324c28c2b0;Polytropic-Advance_Master-20_0.pdf ; 8</p>
+				<p><strong> Page Document paragraphe:</strong>[7]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Utilisation
+
+					Mise en eau :
+
+					Une fois l'appareil relié au circuit d'eau avec le by-pass, et relié au circuit électrique par
+					un professionnel, s’assurer que:
+					- La machine est bien horizontale (niveau).
+					- Le circuit d’eau est purgé de qui pourrait rester dans les tuyaux et la machine.
+					- Le circuit d'eau soit bien raccordé (pas de fuites ni de détérioration des raccords
+					hydrauliques, bon serrage des raccords a visser).
+					- Le circuit électrique est bien raccordé (bon serrage des cables sur les bornes et disjoncteur
+					intermédiaire), bien isolé et relié a la terre.
+					- Les conditions d’installation et d'utilisation décrites precédemment sont bien respectées.
+					- La température extérieure est comprise entre : 0 et +35°C (Modéles Advance) -15 et + 35°C
+					(Modéles Master)
+					- La température de l'eau comprise entre 15 et 30°C.
+
+					Vous pouvez alors mettre votre machine en marche, pour cela, veillez a bien suivre les points
+					suivants dans pour chaque mise en route de la machine en début de saison):
+					- Ouvrir les 3 vannes du By-pass.
+					- Fermer a moitié la vanne de réglage.
+					- Démarrer la pompe du systéme de filtration.
+					- Mettre la pompe a chaleur sous tension et démarrer-la en plagant l'interrupteur de
+					marche/arrét sur « | » (marche).
+					- Vérifier que la machine démarre et s’arréte bien en méme temps que le circuit de filtration :
+					en cas de non détection d’eau dans la machine, l’afficheur indique « FLO ».
+					- La machine se met en route aprés une temporisation de quelques minutes.
+					- Régler la température (chapitre « Régulation »).
+					- Régler le débit d'eau (chapitre « Réglage du débit d'eau »)
+					- Au bout de quelques minutes (temps de chauffe du circuit) vous pouvez régler le débit d'eau
+					comme (Chapitre « Réglage du débit d’eau »). Aprés cela, mettre en place la bache et laisser la
+					pompe a chaleur fonctionner plusieurs jours (pompe de filtration en « marche forcée », jusqu’a
+					ce que atteigne la température désirée.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [8]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Advance_Master-20_0.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details61')">
+			Quelle est la norme de référence pour l'installation de la PAC Pixel ?
+			VECTO : false
+		</button>
+		<div id="details61" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> NF|C|15|100</p>
+			<p><strong>Réponse obtenue:</strong> La norme de référence pour l'installation de la PAC Pixel est la NF
+				C 15 100.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,42</p>
+			<p><strong>Coverage :</strong> 75,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> ed0d820a-78c9-4a74-b4f9-c462e01bb857;Polytropic-Pixel-20_1.pdf
+					; 4</p>
+				<p><strong> Page Document paragraphe:</strong>[3]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Normalisation
+					Déclaration de conformité CE
+					Les pompes a chaleur Polytropic sont conformes aux dispositions :
+					- Directive de compatibilité électromagnétique : 2004/108/CE
+					- Directive de basse tension : 2006/95/CE
+					- Directive d’équipements sous pression 97/23/CE
+					- Norme de niveau sonore : 200/14/CE
+					- Normes harmonisées : NF EN 60335.1, 2.40
+
+					Installation électrique:
+
+					La norme de référence pour I'installation est la NF C 15 100.
+
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [5]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Pixel-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details62')">
+			Quelle est la pression maximale du circuit d'eau de la PAC Pixel ?
+			VECTO : true
+		</button>
+		<div id="details62" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 1|bar</p>
+			<p><strong>Réponse obtenue:</strong> 1 bar.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,37</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> ed0d820a-78c9-4a74-b4f9-c462e01bb857;Polytropic-Pixel-20_1.pdf
+					; 5</p>
+				<p><strong> Page Document paragraphe:</strong>[4]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					La pression du circuit d’eau ne doit pas excéder 1 bars.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [5]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Pixel-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details63')">
+			À quelle distance du bassin doit être installée la PAC Pixel ?
+			VECTO : true
+		</button>
+		<div id="details63" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> plus|2|m</p>
+			<p><strong>Réponse obtenue:</strong> La PAC Pixel doit être installée à plus de 2 mètres du bassin.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,24</p>
+			<p><strong>Coverage :</strong> 58,33%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> ed0d820a-78c9-4a74-b4f9-c462e01bb857;Polytropic-Pixel-20_1.pdf
+					; 6</p>
+				<p><strong> Page Document paragraphe:</strong>[5]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Distance du bassin : Attention L'appareil doit étre installé a l'extérieur a plus de 2 m du
+					bassin selon les lois en vigueur (NF C 15 100).</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [6]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Pixel-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details65')">
+			Doit-il y avoir un différentiel en tête de ligne électrique de la PAC Pixel ?
+			VECTO : true
+		</button>
+		<div id="details65" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> différentiel|30|mA</p>
+			<p><strong>Réponse obtenue:</strong> Oui, il doit y avoir un différentiel en tête de ligne électrique.
+				La ligne électrique doit impérativement être équipée d'un différentiel 30 mA en tête.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,24</p>
+			<p><strong>Coverage :</strong> 60,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> ed0d820a-78c9-4a74-b4f9-c462e01bb857;Polytropic-Pixel-20_1.pdf
+					; 7</p>
+				<p><strong> Page Document paragraphe:</strong>[6]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Raccordement de l'électricité :
+
+					La tension électrique doit correspondre a celle indiquée sur l'appareil. Les raccordements
+					doivent étres dimensionnés en fonction de la puissance de l'appareil et de l’état de
+					I'installation.
+
+					Seule I'intervention d'un électricien habilité vous permettra de déterminer si votre
+					installation électrique est en conformité avec les normes locales. La ligne électrique doit
+					impérativement étre équipée d'une prise avec terre, d'un disjoncteur et d’un différentiel 30 mA
+					en téte. La prise est équipée d'un dispositif supplémentaire avec différentiel 10 mA avec bouton
+					de réarmement manuel. L’appareil doit fonctionner en méme temps que la pompe de
+					filtration/circulation</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [7]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Pixel-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details66')">
+			À quelle température extérieure est-il possible d'installer la PAC Pixel ?
+			VECTO : true
+		</button>
+		<div id="details66" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 10|35|°C</p>
+			<p><strong>Réponse obtenue:</strong> La température extérieure doit être comprise entre +10°C et 35°C.
+			</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,41</p>
+			<p><strong>Coverage :</strong> 50,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> ed0d820a-78c9-4a74-b4f9-c462e01bb857;Polytropic-Pixel-20_1.pdf
+					; 8</p>
+				<p><strong> Page Document paragraphe:</strong>[7]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Utilisation
+					Mise en eau
+
+					Une fois l'appareil relié au circuit d'eau, et relié au circuit électrique par un professionnel,
+					s'assurer que :
+					- La machine est bien horizontale (niveau).
+					- Le circuit d'eau est purgé de l’air qui pourrait rester dans les tuyaux et la machine.
+					- Le circuit d'eau soit bien raccordé (pas de fuites ni de détérioration des raccords
+					hydrauliques, bon serrage des raccords a visser).
+					- Le circuit électrique est bien raccordé (bon serrage des cables sur les bornes et disjoncteur
+					intermédiaire), bien isolé et relié a la terre.
+					- Les conditions d’installation et d'utilisation décrites précédemment sont bien respectées.
+					- La température extérieure est comprise entre : o +10 et+ 35°C
+					- La température de comprise entre 15 et 30°C.
+
+					Vous pouvez alors mettre votre machine en marche, pour cela, veillez a bien suivre les points
+					suivants dans l’ordre pour chaque mise en route de la machine en début de saison):
+					- Démarrer la pompe du systéme de filtration.
+					- Mettre la pompe a chaleur sous tension et démarrer-la.
+					- La machine se met en route aprés une temporisation de quelques minutes.
+					- Régler la température (chapitre « Régulation »).
+
+					Aprés ces opérations, mettez la couverture sur la piscine et laissez la pompe a chaleur
+					fonctionner plusieurs jours afin de chauffer toute l'eau de la piscine.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [8]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Pixel-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details68')">
+			Que signifie la LED verte sur l'afficheur de la PAC Pixel ?
+			VECTO : true
+		</button>
+		<div id="details68" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> refroidir</p>
+			<p><strong>Réponse obtenue:</strong> La LED verte indique que la pompe a chaleur doit refroidir.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,18</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> ed0d820a-78c9-4a74-b4f9-c462e01bb857;Polytropic-Pixel-20_1.pdf
+					; 9</p>
+				<p><strong> Page Document paragraphe:</strong>[8]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					2. Illustration de l’ afficheur :
+					La LED rouge indique que la pompe a chaleur doit chauffer.
+					La LED verte indique que la pompe a chaleur doit refroidir. La LED rouge et le clignotement de
+					la LED verte indiquent que la pompe a chaleur doit dégivrer.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [9]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Pixel-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details69')">
+			Que signifie le code erreur P 1 sur l'afficheur de la PAC Pixel ?
+			VECTO : true
+		</button>
+		<div id="details69" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> capteur|entrée|eau</p>
+			<p><strong>Réponse obtenue:</strong> L'erreur P 1 sur l'afficheur de la PAC Pixel correspond à une
+				erreur du capteur d'entrée d'eau.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,30</p>
+			<p><strong>Coverage :</strong> 43,75%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> ed0d820a-78c9-4a74-b4f9-c462e01bb857;Polytropic-Pixel-20_1.pdf
+					; 11</p>
+				<p><strong> Page Document paragraphe:</strong>[10]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Codes d'erreur :
+					Erreur: Erreur du capteur d'entrée d'eau | code P 1 ;
+					Erreur: Erreur du capteur T ambiante |code P 2 ;
+					Erreur: Température ambiante trop haute ou trop basse |code P 3 ;
+					Erreur: Erreur du capteur évaporateur |code P 4 ;
+					Erreur: Protection haute pression du système |code P 5 ;
+					Erreur: Erreur capteur haute pression | code E 5 ;
+					Erreur: Dégivrage en cours |code La LED verte scintille ;</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [11]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Pixel-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-green-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details70')">
+			Que signifie le code erreur E 5 sur l'afficheur de la PAC Pixel ?
+			VECTO : true
+		</button>
+		<div id="details70" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> capteur|haute|pression</p>
+			<p><strong>Réponse obtenue:</strong> Erreur capteur haute pression.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,32</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> ed0d820a-78c9-4a74-b4f9-c462e01bb857;Polytropic-Pixel-20_1.pdf
+					; 11</p>
+				<p><strong> Page Document paragraphe:</strong>[10]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Codes d'erreur :
+					Erreur: Erreur du capteur d'entrée d'eau | code P 1 ;
+					Erreur: Erreur du capteur T ambiante |code P 2 ;
+					Erreur: Température ambiante trop haute ou trop basse |code P 3 ;
+					Erreur: Erreur du capteur évaporateur |code P 4 ;
+					Erreur: Protection haute pression du système |code P 5 ;
+					Erreur: Erreur capteur haute pression | code E 5 ;
+					Erreur: Dégivrage en cours |code La LED verte scintille ;</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [11]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Pixel-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details1')">
+			Quelle puissance peut absorber la PAC NEO-INVERTER 12 ?
+			VECTO : true
+		</button>
+		<div id="details1" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 2,9|kW</p>
+			<p><strong>Réponse obtenue:</strong> 2.9 kW</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,53</p>
+			<p><strong>Coverage :</strong> 50,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					a0489ff4-7b92-40eb-b40f-f4bb64f87eb0;Polytropic-Neo_Inverter-2024.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre -3°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit NEO INVERTER 05 la puissance absorbée max est de 1,3kW, le poids est de 47 kg
+					- Pour le produit NEO INVERTER 07, la puissance absorbée max est de 1,6kW, le poids est de 47 kg
+					- Pour le produit NEO INVERTER 08, la puissance absorbée max est de 1,8kW, le poids est de 53 kg
+					- Pour le produit NEO INVERTER 10, la puissance absorbée max est de 2.5kW, le poids est de 53 kg
+					- Pour le produit NEO INVERTER 12, la puissance absorbée max est de 2.9kW, le poids est de 57 kg
+					- Pour le produit NEO INVERTER 15, la puissance absorbée max est de 4.1kW, le poids est de 78 kg
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Neo_Inverter-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details3')">
+			Comment transporter la PAC NEO-INVERTER ?
+			VECTO : true
+		</button>
+		<div id="details3" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> toujours|stock|transport|vertical|palette|emballage</p>
+			<p><strong>Réponse obtenue:</strong> La PAC NEO-INVERTER doit être stockée et transportée en position
+				verticale sur une palette et dans l'emballage d'origine.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,35</p>
+			<p><strong>Coverage :</strong> 72,22%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					a0489ff4-7b92-40eb-b40f-f4bb64f87eb0;Polytropic-Neo_Inverter-2024.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					TRANSPORT ET LIVRAISON:
+
+					- Après avoir déballé la PAC (pompe à chaleur), veuillez vérifier le contenu afin de signaler
+					tout dommage éventuel. Veuillez également vérifier que la pression lue sur le manomètre
+					correspond a la température extérieure, dans le cas contraires cela peut indiquer une fuite.
+					- La PAC doit toujours être stockée et transportée en position verticale sur une palette et dans
+					l'emballage d'origine.
+					- Si la PAC a été stockée et/ou transportée horizontalement, la garantie ne s‘applique plus.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Neo_Inverter-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details6')">
+			Dois-je utiliser un DDR pour l'alimentation électrique de la PAC CRYO Inverter ?
+			VECTO : false
+		</button>
+		<div id="details6" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> protégé|protection|différentiel|résiduel|30|mA</p>
+			<p><strong>Réponse obtenue:</strong> Non, il n'est pas nécessaire de utiliser un DDR (interrupteur
+				différentiel) pour l'alimentation électrique de la PAC CRYO Inverter car le document indique que
+				l'alimentation électrique générale doit être protégée par un interrupteur différentiel de 30 mA en
+				amont.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,38</p>
+			<p><strong>Coverage :</strong> 61,54%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					a0489ff4-7b92-40eb-b40f-f4bb64f87eb0;Polytropic-Neo_Inverter-2024.pdf ; 6</p>
+				<p><strong> Page Document paragraphe:</strong>[5]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Installation électrique :
+
+					Pour fonctionner en toute sécurité et conserver l'intégrité de votre installation électrique, la
+					PAC doit être raccordée a une alimentation générale en respectant les règles suivantes:
+					- En amont, l'alimentation électrique générale doit étre protégée par un interrupteur
+					différentiel de 30 mA.
+					- La PAC doit étre raccordée a un disjoncteur courbe C adapté (voir tableau ci-dessous) en
+					conformité avec les normes et réglementations en vigueur dans le pays où le systéme est
+					installé.
+					- Le cable d’alimentation est a adapter en fonction de la puissance de la PAC et de la longueur
+					de cable nécessaire a (voir tableau ci-dessous). Le cable doit étre approprié à une utilisation
+					en extérieur.
+					- Dans le cas d'un systéme triphasé, il est impératif de respecter l'ordre de branchement des
+					phases. En cas d'inversion de phase, le compresseur de la PAC ne fonctionnera pas.
+					- Dans les lieux publics, installation d'un bouton d'arrét d'urgence a proximité de la PAC est
+					obligatoire. La tension électrique doit correspondre a celle indiquée sur la PAC.
+					- Les raccordements doivent étres dimensionnés en fonction de la puissance de la PAC et de
+					l'état de l'installation
+					- Utiliser les presse-étoupes et passe fils mis disposition a l'intérieur de la PAC pour le
+					passage des cables. - Cette PAC étant installée en extérieur, il est obligatoire de passer le
+					cable dans une gaine de protection prévue a cet effet. L'alimentation de la PAC doit étre munie
+					d'un dispositif de protection en conformité avec la législation en vigueur.
+					- Les cables électriques doivent étre enterrés a 00 cm de profondeur (80 cm sous une route ou un
+					chemin) dans une gaine électrique (annelée rouge). Lorsqu'un cable enterré sous gaine croise un
+					autre cable ou une conduite (gaz, eau...) La distance entre eux doit étre supérieure a 20 cm.
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Neo_Inverter-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details7')">
+			À quelle distance du bassin doit être installée la PAC CRYO Inverter ?
+			VECTO : true
+		</button>
+		<div id="details7" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> plus|2,5|m</p>
+			<p><strong>Réponse obtenue:</strong> La PAC CRYO Inverter doit être installée à plus de 2.5 mètres du
+				bassin selon les lois en vigueur (NF C 15100).</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,25</p>
+			<p><strong>Coverage :</strong> 76,19%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					a0489ff4-7b92-40eb-b40f-f4bb64f87eb0;Polytropic-Neo_Inverter-2024.pdf ; 5</p>
+				<p><strong> Page Document paragraphe:</strong>[4]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					INSTALLATION
+
+					Installer la PAC a l'extérieur a plus de 2.5 m du bassin selon les lois en vigueur (NF C 15100).
+					Poser la PAC sur ses les plots antivibrataires fournis sur une surface stable, solide (pouvant
+					supporter le poids de l'appareil) et de niveau (éventuellement réaliser un sacle en béton}.
+					Maintenir 1 mètre (30 cm minimum) d'espace libre devant les grilles verticales d'aspiration
+					d'air (à l'arriére et sur le coté concerné de la PAC) et 3 mèrtes a la sortie du ventilateur (a
+					l'avant) sur un espace complétement dégagé de tout obstacle.
+
+					Prévoir un espace suffisant autour de la PAC pour les opérations d’entretien et de maintenance.
+					Prévoir un dispositif d'évacuation d'eau & proximité de la PAC pour préserver la zone oui elle
+					est installée.
+					Conserver, autant que possible, la PAC hors de portée des enfants.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [5]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Neo_Inverter-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details13')">
+			Comment transporter la PAC Morpheo ?
+			VECTO : true
+		</button>
+		<div id="details13" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> toujours|stock|transport|vertical|palette|emballage</p>
+			<p><strong>Réponse obtenue:</strong> La PAC Morpheo doit être transportée en position verticale sur une
+				palette et dans l'emballage d'origine.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,36</p>
+			<p><strong>Coverage :</strong> 75,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					6414da2a-233c-4d62-ac56-76bfcea181ba;Polytropic-Morpheo-2023.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					TRANSPORT ET LIVRAISON:
+
+					- Après avoir déballé la PAC (pompe à chaleur), veuillez vérifier le contenu afin de signaler
+					tout dommage éventuel. Veuillez également vérifier que la pression lue sur le manomètre
+					correspond a la température extérieure, dans le cas contraires cela peut indiquer une fuite.
+					- La PAC doit toujours être stockée et transportée en position verticale sur une palette et dans
+					l'emballage d'origine.
+					- Si la PAC a été stockée et/ou transportée horizontalement, la garantie ne s‘applique plus.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Morpheo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details17')">
+			À quelle distance du bassin doit être installée la PAC Morpheo ?
+			VECTO : true
+		</button>
+		<div id="details17" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> plus|2,5|m</p>
+			<p><strong>Réponse obtenue:</strong> La PAC Morpheo doit être installée à plus de 2.5 mètres du bassin
+				selon les lois en vigueur (NF C 15100).</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,26</p>
+			<p><strong>Coverage :</strong> 80,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					6414da2a-233c-4d62-ac56-76bfcea181ba;Polytropic-Morpheo-2023.pdf ; 5</p>
+				<p><strong> Page Document paragraphe:</strong>[4]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					INSTALLATION
+
+					Installer la PAC a l'extérieur a plus de 2.5 m du bassin selon les lois en vigueur (NF C 15100).
+					Poser la PAC sur ses les plots antivibrataires fournis sur une surface stable, solide (pouvant
+					supporter le poids de l'appareil) et de niveau (éventuellement réaliser un sacle en béton}.
+					Maintenir 1 mètre (30 cm minimum) d'espace libre devant les grilles verticales d'aspiration
+					d'air (à l'arriére et sur le coté concerné de la PAC) et 3 mèrtes a la sortie du ventilateur (a
+					l'avant) sur un espace complétement dégagé de tout obstacle.
+
+					Prévoir un espace suffisant autour de la PAC pour les opérations d’entretien et de maintenance.
+					Prévoir un dispositif d'évacuation d'eau & proximité de la PAC pour préserver la zone oui elle
+					est installée.
+					Conserver, autant que possible, la PAC hors de portée des enfants.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [5]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Morpheo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details23')">
+			Comment transporter la JD PAC Access ?
+			VECTO : false
+		</button>
+		<div id="details23" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> toujours|stock|transport|vertical|palette|emballage</p>
+			<p><strong>Réponse obtenue:</strong> Pour transporter la JD PAC Access, il faut suivre les spécificités
+				d'alimentation en fonction du modèle.
+
+				- Pour un modèle JD PAC Access 1 et 2 :
+				- Utiliser un câble d'alimentation de section adaptée (2,5mm carré, 4mm carré, 6mm carré ou 10mm
+				carré) pour une longueur maximale de :
+				- 34 m pour du 2.5mm carré
+				- 54 m pour du 4mm carré
+				- 80 m pour du 6mm carré
+				- 135 m pour du 10mm carré
+
+				- Pour un modèle JD PAC Access 3 :
+				- Utiliser un câble d'alimentation de section adaptée (2.5mm carré, 4mm carré, 6mm carré ou 10mm
+				carré) pour une longueur maximale de :
+				- 20 m pour du 2.5mm carré
+				- 30 m pour du 4mm carré
+				- 40 m pour du 6mm carré
+				- 8070m pour du 10mm carré</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,12</p>
+			<p><strong>Coverage :</strong> 80,17%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					45cfd182-291e-4811-9f20-f4306809d6bc;Polytropic-JD_PAC_Access-2024.pdf ; 8</p>
+				<p><strong> Page Document paragraphe:</strong>[7]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Spécificités Installation électrique par modèle JD PAC Access:
+
+					- Pour un modèle JD PAC Access 1 et 2: l'alimentation nécessaire est 3G 230V, la protection de
+					tête de ligne doit être de 10 A, la longueur maximale du cable d'alimentation en fonction de la
+					section doit être de :
+					- 34 m pour du 2.5mm carré
+					- 54 m pour du 4mm carré
+					- 80 m pour du 6mm carré
+					- 135 m pour du 10mm carré
+
+					- Pour un modèle JD PAC Access 3: l'alimentation nécessaire est 3G 230V, la protection de tête
+					de ligne doit être de 16 A, la longueur maximale du cable d'alimentation en fonction de la
+					section doit être de :
+					- 20 m pour du 2.5mm carré
+					- 30 m pour du 4mm carré
+					- 40 m pour du 6mm carré
+					- 8070m pour du 10mm carré
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-JD_PAC_Access-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details24')">
+			Quel réfrigérant utilise la JD PAC Access ?
+			VECTO : false
+		</button>
+		<div id="details24" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> R32|faible|vitesse|combustion</p>
+			<p><strong>Réponse obtenue:</strong> Le réfrigérant utilisé par les modèles JD PAC Access 01, 02 et 03
+				est le R32.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,36</p>
+			<p><strong>Coverage :</strong> 87,50%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					45cfd182-291e-4811-9f20-f4306809d6bc;Polytropic-JD_PAC_Access-2024.pdf ; 5</p>
+				<p><strong> Page Document paragraphe:</strong>[4]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					DONNEES TECHNIQUES
+
+					Le modèle JD PAC Access 01 est classé 4,0 selon la norme EN 17645 et appartient à la catégorie
+					C. Il est recommandé pour des bassins de 20 à 30 m³, pour une utilisation de mai à septembre
+					avec couverture. Par conditions d’air à 27 °C et eau à 27 °C avec une humidité relative de 80 %,
+					cette pompe restitue une puissance de 3,8 kW avec un coefficient de performance (COP) de 4,6.
+					Lorsque la température de l’air passe à 15 °C et celle de l’eau à 26 °C (70 % HR), la puissance
+					restituée tombe à 2,9 kW, avec un COP de 4,2. Par conditions plus froides, soit air à 7 °C et
+					eau à 26 °C (90 % HR), elle fournit 2,1 kW pour un COP de 2,7. Son niveau sonore est de 33 dB(A)
+					et sa plage de fonctionnement s’étend de 0 °C à 38 °C. Le réfrigérant utilisé est le R32.
+
+					Pour l’installation, le raccordement hydraulique est de 1,5 pouces/50 mm. L’alimentation requise
+					est de 230 V monophasé, 50 Hz. Le courant nominal est de 3,1 A (avec un maximum de 6,5 A),
+					nécessitant une protection par disjoncteur 10 A (un câble de 3G 2,5 mm² sur 20 m). La puissance
+					absorbée maximale atteint 1,5 kW. Le débit d’eau minimum est de 3 m³/h, avec une perte de charge
+					de 5 kPa. Les dimensions sont 781 mm de long, 259 mm de large et 547 mm de hauteur. Le poids net
+					est de 36 kg (40 kg brut).
+
+					Le modèle JD PAC Access 02 a une classification EN 17645 de 5,0 (toujours catégorie C),
+					recommandé pour des bassins de 30 à 40 m³. Sous air à 27 °C et eau à 27 °C (80 % HR), il
+					restitue 5,8 kW pour un COP de 4,6. En température plus fraîche (air à 15 °C, eau à 26 °C, 70 %
+					HR), la puissance est de 4,8 kW avec un COP de 4,3, et par air à 7 °C, eau à 26 °C (90 % HR),
+					elle est de 3,2 kW pour un COP de 3,7. Le niveau acoustique est toujours de 33 dB(A), et la
+					plage de fonctionnement, comprise entre 0 et 38 °C, avec utilisation du réfrigérant R32.
+
+					Ce modèle aussi possède un raccordement hydraulique de 1,5 pouces/50 mm, s'alimente en 230 V
+					monophasé, 50 Hz, et consomme 4,7 A en nominal (maximum 7,0 A). La protection recommandée est
+					aussi un disjoncteur 10 A avec câble de 3G 2,5 mm² sur 20 m. La puissance maximale absorbée est
+					de 1,6 kW. Le débit d’eau minimum est également de 3 m³/h, les pertes de charge étant identiques
+					(5 kPa). Les dimensions sont 781 mm x 259 mm x 547 mm et le poids net de 38 kg (42 kg brut).
+
+					Le modèle JD PAC Access 03 se distingue par une classification EN 17645 de 5,1 (toujours
+					catégorie C) et convient pour des bassins de 40 à 50 m³. À air 27 °C, eau 27 °C (80 % HR), il
+					délivre 8,7 kW pour un COP de 5,0. Par air à 15 °C, eau à 26 °C (70 % HR), la puissance
+					restituée atteint 6,5 kW avec un COP de 4,3, et à air 7 °C, eau 26 °C (90 % HR), elle est de
+					4,8 kW pour un COP de 3,6. Le niveau de bruit est de 34 dB(A) et la plage de fonctionnement de 0
+					à 38 °C, avec le même gaz R32.
+
+					Au niveau installation, il garde le raccordement 1,5 pouces/50 mm et nécessite une alimentation
+					230 V monophasé, 50 Hz, pour un courant nominal de 7,0 A (maximum 10,5 A). Il faut prévoir un
+					disjoncteur 16 A et un câble de 3G 2,5 mm² sur 20 m. La puissance absorbée maximale monte à
+					2,4 kW, le débit d’eau minimum à 4 m³/h, pour une perte de charge de 5 kPa. Ce modèle est plus
+					volumineux avec des dimensions de 832 mm x 312 mm x 700 mm et un poids net de 50 kg (brut
+					59 kg).
+
+					Ainsi, chaque modèle est adapté à un volume de bassin différent, avec une puissance et un
+					rendement qui évoluent en fonction des conditions climatiques, tout en respectant des exigences
+					communes de raccordement, d’alimentation électrique et de pertes hydrauliques.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-JD_PAC_Access-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details26')">
+			Dois-je utiliser un DDR pour l'alimentation électrique de la JD PAC Access ?
+			VECTO : false
+		</button>
+		<div id="details26" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> protégé|protection|différentiel|résiduel|30|mA</p>
+			<p><strong>Réponse obtenue:</strong> Non, il n'y a aucune mention de DDR (Disque Dur Interne) dans les
+				spécificités d'installation électrique du JD PAC Access. Le document fourni concerne uniquement les
+				caractéristiques électriques et la protection des câbles d'alimentation pour chaque modèle de JD PAC
+				Access.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,37</p>
+			<p><strong>Coverage :</strong> 39,02%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					45cfd182-291e-4811-9f20-f4306809d6bc;Polytropic-JD_PAC_Access-2024.pdf ; 8</p>
+				<p><strong> Page Document paragraphe:</strong>[7]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Spécificités Installation électrique par modèle JD PAC Access:
+
+					- Pour un modèle JD PAC Access 1 et 2: l'alimentation nécessaire est 3G 230V, la protection de
+					tête de ligne doit être de 10 A, la longueur maximale du cable d'alimentation en fonction de la
+					section doit être de :
+					- 34 m pour du 2.5mm carré
+					- 54 m pour du 4mm carré
+					- 80 m pour du 6mm carré
+					- 135 m pour du 10mm carré
+
+					- Pour un modèle JD PAC Access 3: l'alimentation nécessaire est 3G 230V, la protection de tête
+					de ligne doit être de 16 A, la longueur maximale du cable d'alimentation en fonction de la
+					section doit être de :
+					- 20 m pour du 2.5mm carré
+					- 30 m pour du 4mm carré
+					- 40 m pour du 6mm carré
+					- 8070m pour du 10mm carré
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-JD_PAC_Access-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details27')">
+			Quelle est la taille de bassin recommandée pour une JD PAC Access 2 ?
+			VECTO : true
+		</button>
+		<div id="details27" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 30|40|m3</p>
+			<p><strong>Réponse obtenue:</strong> La taille de bassin recommandée pour une JD PAC Access 2 dépend du
+				modèle choisi.
+				- Le modèle JD PAC Access 01 est recommandé pour des bassins de 20 à 30 m³.
+				- Le modèle JD PAC Access 02 convient pour des bassins de 30 à 40 m³.
+				- Le modèle JD PAC Access 03 est adapté à des bassins de 40 à 50 m³.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,23</p>
+			<p><strong>Coverage :</strong> 86,21%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					45cfd182-291e-4811-9f20-f4306809d6bc;Polytropic-JD_PAC_Access-2024.pdf ; 5</p>
+				<p><strong> Page Document paragraphe:</strong>[4]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					DONNEES TECHNIQUES
+
+					Le modèle JD PAC Access 01 est classé 4,0 selon la norme EN 17645 et appartient à la catégorie
+					C. Il est recommandé pour des bassins de 20 à 30 m³, pour une utilisation de mai à septembre
+					avec couverture. Par conditions d’air à 27 °C et eau à 27 °C avec une humidité relative de 80 %,
+					cette pompe restitue une puissance de 3,8 kW avec un coefficient de performance (COP) de 4,6.
+					Lorsque la température de l’air passe à 15 °C et celle de l’eau à 26 °C (70 % HR), la puissance
+					restituée tombe à 2,9 kW, avec un COP de 4,2. Par conditions plus froides, soit air à 7 °C et
+					eau à 26 °C (90 % HR), elle fournit 2,1 kW pour un COP de 2,7. Son niveau sonore est de 33 dB(A)
+					et sa plage de fonctionnement s’étend de 0 °C à 38 °C. Le réfrigérant utilisé est le R32.
+
+					Pour l’installation, le raccordement hydraulique est de 1,5 pouces/50 mm. L’alimentation requise
+					est de 230 V monophasé, 50 Hz. Le courant nominal est de 3,1 A (avec un maximum de 6,5 A),
+					nécessitant une protection par disjoncteur 10 A (un câble de 3G 2,5 mm² sur 20 m). La puissance
+					absorbée maximale atteint 1,5 kW. Le débit d’eau minimum est de 3 m³/h, avec une perte de charge
+					de 5 kPa. Les dimensions sont 781 mm de long, 259 mm de large et 547 mm de hauteur. Le poids net
+					est de 36 kg (40 kg brut).
+
+					Le modèle JD PAC Access 02 a une classification EN 17645 de 5,0 (toujours catégorie C),
+					recommandé pour des bassins de 30 à 40 m³. Sous air à 27 °C et eau à 27 °C (80 % HR), il
+					restitue 5,8 kW pour un COP de 4,6. En température plus fraîche (air à 15 °C, eau à 26 °C, 70 %
+					HR), la puissance est de 4,8 kW avec un COP de 4,3, et par air à 7 °C, eau à 26 °C (90 % HR),
+					elle est de 3,2 kW pour un COP de 3,7. Le niveau acoustique est toujours de 33 dB(A), et la
+					plage de fonctionnement, comprise entre 0 et 38 °C, avec utilisation du réfrigérant R32.
+
+					Ce modèle aussi possède un raccordement hydraulique de 1,5 pouces/50 mm, s'alimente en 230 V
+					monophasé, 50 Hz, et consomme 4,7 A en nominal (maximum 7,0 A). La protection recommandée est
+					aussi un disjoncteur 10 A avec câble de 3G 2,5 mm² sur 20 m. La puissance maximale absorbée est
+					de 1,6 kW. Le débit d’eau minimum est également de 3 m³/h, les pertes de charge étant identiques
+					(5 kPa). Les dimensions sont 781 mm x 259 mm x 547 mm et le poids net de 38 kg (42 kg brut).
+
+					Le modèle JD PAC Access 03 se distingue par une classification EN 17645 de 5,1 (toujours
+					catégorie C) et convient pour des bassins de 40 à 50 m³. À air 27 °C, eau 27 °C (80 % HR), il
+					délivre 8,7 kW pour un COP de 5,0. Par air à 15 °C, eau à 26 °C (70 % HR), la puissance
+					restituée atteint 6,5 kW avec un COP de 4,3, et à air 7 °C, eau 26 °C (90 % HR), elle est de
+					4,8 kW pour un COP de 3,6. Le niveau de bruit est de 34 dB(A) et la plage de fonctionnement de 0
+					à 38 °C, avec le même gaz R32.
+
+					Au niveau installation, il garde le raccordement 1,5 pouces/50 mm et nécessite une alimentation
+					230 V monophasé, 50 Hz, pour un courant nominal de 7,0 A (maximum 10,5 A). Il faut prévoir un
+					disjoncteur 16 A et un câble de 3G 2,5 mm² sur 20 m. La puissance absorbée maximale monte à
+					2,4 kW, le débit d’eau minimum à 4 m³/h, pour une perte de charge de 5 kPa. Ce modèle est plus
+					volumineux avec des dimensions de 832 mm x 312 mm x 700 mm et un poids net de 50 kg (brut
+					59 kg).
+
+					Ainsi, chaque modèle est adapté à un volume de bassin différent, avec une puissance et un
+					rendement qui évoluent en fonction des conditions climatiques, tout en respectant des exigences
+					communes de raccordement, d’alimentation électrique et de pertes hydrauliques.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [5]</p>
+				<p><strong>Document concerné :</strong> Polytropic-JD_PAC_Access-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details33')">
+			Comment transporter la PAC Ottimo ?
+			VECTO : true
+		</button>
+		<div id="details33" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> toujours|stock|transport|vertical|palette|emballage</p>
+			<p><strong>Réponse obtenue:</strong> La PAC Ottimo doit être stockée et transportée en position
+				verticale sur une palette et dans l'emballage d'origine.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,35</p>
+			<p><strong>Coverage :</strong> 72,22%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					7cc03a1b-a306-4895-9473-ca98a8fbe4f4;Polytropic-Ottimo-2023.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					TRANSPORT ET LIVRAISON:
+
+					- Après avoir déballé la PAC (pompe à chaleur), veuillez vérifier le contenu afin de signaler
+					tout dommage éventuel. Veuillez également vérifier que la pression lue sur le manomètre
+					correspond a la température extérieure, dans le cas contraires cela peut indiquer une fuite.
+					- La PAC doit toujours être stockée et transportée en position verticale sur une palette et dans
+					l'emballage d'origine.
+					- Si la PAC a été stockée et/ou transportée horizontalement, la garantie ne s‘applique plus.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Ottimo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details37')">
+			À quelle distance du bassin doit être installée la PAC Ottimo ?
+			VECTO : true
+		</button>
+		<div id="details37" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> plus|2,5|m</p>
+			<p><strong>Réponse obtenue:</strong> La PAC Ottimo doit être installée à plus de 2.5 m du bassin selon
+				les lois en vigueur (NF C 15100).</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,24</p>
+			<p><strong>Coverage :</strong> 85,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					7cc03a1b-a306-4895-9473-ca98a8fbe4f4;Polytropic-Ottimo-2023.pdf ; 5</p>
+				<p><strong> Page Document paragraphe:</strong>[4]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					INSTALLATION
+
+					Installer la PAC a l'extérieur a plus de 2.5 m du bassin selon les lois en vigueur (NF C 15100).
+					Poser la PAC sur ses les plots antivibrataires fournis sur une surface stable, solide (pouvant
+					supporter le poids de l'appareil) et de niveau (éventuellement réaliser un sacle en béton}.
+					Maintenir 1 mètre (30 cm minimum) d'espace libre devant les grilles verticales d'aspiration
+					d'air (à l'arriére et sur le coté concerné de la PAC) et 3 mèrtes a la sortie du ventilateur (a
+					l'avant) sur un espace complétement dégagé de tout obstacle.
+
+					Prévoir un espace suffisant autour de la PAC pour les opérations d’entretien et de maintenance.
+					Prévoir un dispositif d'évacuation d'eau & proximité de la PAC pour préserver la zone oui elle
+					est installée.
+					Conserver, autant que possible, la PAC hors de portée des enfants.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [5]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Ottimo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details38')">
+			Quelle espace doit être laissé devant les grilles d'aspiration d'air de la PAC Ottimo ?
+			VECTO : true
+		</button>
+		<div id="details38" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 1|m|30|cm|devant|3|m|sortie|ventilateur</p>
+			<p><strong>Réponse obtenue:</strong> 1 mètre (30 cm minimum) d'espace libre devant les grilles
+				verticales d'aspiration d'air.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,36</p>
+			<p><strong>Coverage :</strong> 69,23%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					7cc03a1b-a306-4895-9473-ca98a8fbe4f4;Polytropic-Ottimo-2023.pdf ; 5</p>
+				<p><strong> Page Document paragraphe:</strong>[4]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					INSTALLATION
+
+					Installer la PAC a l'extérieur a plus de 2.5 m du bassin selon les lois en vigueur (NF C 15100).
+					Poser la PAC sur ses les plots antivibrataires fournis sur une surface stable, solide (pouvant
+					supporter le poids de l'appareil) et de niveau (éventuellement réaliser un sacle en béton}.
+					Maintenir 1 mètre (30 cm minimum) d'espace libre devant les grilles verticales d'aspiration
+					d'air (à l'arriére et sur le coté concerné de la PAC) et 3 mèrtes a la sortie du ventilateur (a
+					l'avant) sur un espace complétement dégagé de tout obstacle.
+
+					Prévoir un espace suffisant autour de la PAC pour les opérations d’entretien et de maintenance.
+					Prévoir un dispositif d'évacuation d'eau & proximité de la PAC pour préserver la zone oui elle
+					est installée.
+					Conserver, autant que possible, la PAC hors de portée des enfants.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [5]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Ottimo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details41')">
+			Quel est le débit d'eau nominal de la PAC RAK 70 ?
+			VECTO : true
+		</button>
+		<div id="details41" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 34|m3/h</p>
+			<p><strong>Réponse obtenue:</strong> Le débit d'eau nominal de la PAC RAK 70 est de 34 m³/h.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,35</p>
+			<p><strong>Coverage :</strong> 69,23%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> 58a91a5c-51ac-494c-b5b4-c2e15212f7d3;Polytropic-RAK-20_1.pdf ;
+					7</p>
+				<p><strong> Page Document paragraphe:</strong>[6]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Le modèle RAK 30 restitue une puissance de 36,4 kW lorsque l’air est à 27 °C et l’eau à 27 °C
+					avec une humidité relative de 80 %. Dans ces conditions, la puissance absorbée est de 7,43 kW,
+					ce qui donne un coefficient de performance (COP) de 4,9. Avec de l’air à 15 °C et de l’eau à
+					26 °C (70 % HR), la puissance restituée passe à 29,4 kW, la puissance absorbée à 6,68 kW et le
+					COP à 4,4. Les connexions hydrauliques se font sur un diamètre de 63 mm et le débit d’eau
+					nominal est de 12 m³/h. Ce modèle nécessite une alimentation en triphasé 400V, consomme en
+					nominal 12,7 A (avec un maximum de 14,6 A), utilise 2 x 2,8 kg de gaz réfrigérant (R410a), et
+					est ventilé par deux ventilateurs de 7 000 m³/h chacun. Le poids net de la machine est de
+					236 kg, avec un poids brut de 279 kg. Le modèle RAK 30 est alimenté en 400 V triphasé + neutre,
+					50 Hz.
+
+					Le RAK 45 restitue 52,7 kW dans les mêmes conditions (air 27 °C, eau 27 °C, HR 80 %), pour 10,3
+					kW absorbés, soit un COP de 5,1. En conditions basses (air 15 °C, eau 26 °C, HR 70 %), la
+					puissance restituée est de 43,9 kW, celle absorbée de 9,4 kW, avec un COP de 4,7. Les connexions
+					hydrauliques sont également en diamètre 63 mm, le débit d’eau nominal est de 21 m³/h. La
+					consommation nominale est de 18,6 A (28 A en pic). Ce modèle utilise 2 x 3,7 kg de gaz
+					réfrigérant, la ventilation reste de 2 x 7 000 m³/h, et le poids net est de 268 kg (poids brut
+					316 kg). Le modèle RAK 45 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Le RAK 70 offre une puissance restituée de 89,1 kW (air 27 °C, eau 27 °C, HR 80 %) pour 17,5 kW
+					absorbés, avec un COP de 5,1. En basse température (air 15 °C, eau 26 °C, HR 70 %), la puissance
+					restituée est de 69,8 kW, l’absorption de 15,9 kW et le COP de 4,4. Les connexions hydrauliques
+					se font via une bride de 90 mm et le débit d’eau nominal atteint 34 m³/h. La consommation
+					nominale est de 31,4 A (maximum 45,0 A). Ce modèle fonctionne avec 2 x 4,5 kg de gaz réfrigérant
+					et une ventilation de 2 x 10 800 m³/h. Le poids net est de 500 kg pour un poids brut de 590 kg.
+					Le modèle RAK 70 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Enfin, le RAK 90 restitue 108,9 kW dans les conditions de 27 °C pour l’air et l’eau et 80 % HR,
+					avec une puissance absorbée de 21,4 kW et un COP de 5,1. Quand la température d’air est ramenée
+					à 15 °C et celle de l’eau à 26 °C (70 % HR), la puissance restituée est de 84,2 kW, la puissance
+					absorbée de 20,5 kW, et le COP chute à 4,1. Les raccordements hydrauliques se font également via
+					une bride de 90 mm, pour un débit d’eau de 43 m³/h. Ce modèle absorbe 37,2 A nominalement
+					(jusqu’à 54,0 A en pointe), fonctionne avec 2 x 5,5 kg de gaz réfrigérant et dispose de deux
+					ventilateurs de 10 800 m³/h chacun. Son poids net est de 530 kg et son poids brut atteint
+					620 kg. Le modèle RAK 90 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Tous ces modèles sont alimentés en 400 V triphasé + neutre, 50 Hz.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [7]</p>
+				<p><strong>Document concerné :</strong> Polytropic-RAK-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details42')">
+			Quel est le poids de la PAC RAK 30
+			VECTO : true
+		</button>
+		<div id="details42" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> net|236|kg|brut|279|kg</p>
+			<p><strong>Réponse obtenue:</strong> Le poids net de la PAC RAK 30 est de 236 kg.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,40</p>
+			<p><strong>Coverage :</strong> 91,67%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> 58a91a5c-51ac-494c-b5b4-c2e15212f7d3;Polytropic-RAK-20_1.pdf ;
+					7</p>
+				<p><strong> Page Document paragraphe:</strong>[6]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Le modèle RAK 30 restitue une puissance de 36,4 kW lorsque l’air est à 27 °C et l’eau à 27 °C
+					avec une humidité relative de 80 %. Dans ces conditions, la puissance absorbée est de 7,43 kW,
+					ce qui donne un coefficient de performance (COP) de 4,9. Avec de l’air à 15 °C et de l’eau à
+					26 °C (70 % HR), la puissance restituée passe à 29,4 kW, la puissance absorbée à 6,68 kW et le
+					COP à 4,4. Les connexions hydrauliques se font sur un diamètre de 63 mm et le débit d’eau
+					nominal est de 12 m³/h. Ce modèle nécessite une alimentation en triphasé 400V, consomme en
+					nominal 12,7 A (avec un maximum de 14,6 A), utilise 2 x 2,8 kg de gaz réfrigérant (R410a), et
+					est ventilé par deux ventilateurs de 7 000 m³/h chacun. Le poids net de la machine est de
+					236 kg, avec un poids brut de 279 kg. Le modèle RAK 30 est alimenté en 400 V triphasé + neutre,
+					50 Hz.
+
+					Le RAK 45 restitue 52,7 kW dans les mêmes conditions (air 27 °C, eau 27 °C, HR 80 %), pour 10,3
+					kW absorbés, soit un COP de 5,1. En conditions basses (air 15 °C, eau 26 °C, HR 70 %), la
+					puissance restituée est de 43,9 kW, celle absorbée de 9,4 kW, avec un COP de 4,7. Les connexions
+					hydrauliques sont également en diamètre 63 mm, le débit d’eau nominal est de 21 m³/h. La
+					consommation nominale est de 18,6 A (28 A en pic). Ce modèle utilise 2 x 3,7 kg de gaz
+					réfrigérant, la ventilation reste de 2 x 7 000 m³/h, et le poids net est de 268 kg (poids brut
+					316 kg). Le modèle RAK 45 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Le RAK 70 offre une puissance restituée de 89,1 kW (air 27 °C, eau 27 °C, HR 80 %) pour 17,5 kW
+					absorbés, avec un COP de 5,1. En basse température (air 15 °C, eau 26 °C, HR 70 %), la puissance
+					restituée est de 69,8 kW, l’absorption de 15,9 kW et le COP de 4,4. Les connexions hydrauliques
+					se font via une bride de 90 mm et le débit d’eau nominal atteint 34 m³/h. La consommation
+					nominale est de 31,4 A (maximum 45,0 A). Ce modèle fonctionne avec 2 x 4,5 kg de gaz réfrigérant
+					et une ventilation de 2 x 10 800 m³/h. Le poids net est de 500 kg pour un poids brut de 590 kg.
+					Le modèle RAK 70 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Enfin, le RAK 90 restitue 108,9 kW dans les conditions de 27 °C pour l’air et l’eau et 80 % HR,
+					avec une puissance absorbée de 21,4 kW et un COP de 5,1. Quand la température d’air est ramenée
+					à 15 °C et celle de l’eau à 26 °C (70 % HR), la puissance restituée est de 84,2 kW, la puissance
+					absorbée de 20,5 kW, et le COP chute à 4,1. Les raccordements hydrauliques se font également via
+					une bride de 90 mm, pour un débit d’eau de 43 m³/h. Ce modèle absorbe 37,2 A nominalement
+					(jusqu’à 54,0 A en pointe), fonctionne avec 2 x 5,5 kg de gaz réfrigérant et dispose de deux
+					ventilateurs de 10 800 m³/h chacun. Son poids net est de 530 kg et son poids brut atteint
+					620 kg. Le modèle RAK 90 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Tous ces modèles sont alimentés en 400 V triphasé + neutre, 50 Hz.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [7]</p>
+				<p><strong>Document concerné :</strong> Polytropic-RAK-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details46')">
+			À quelle température extérieure est-il possible d'installer la PAC RAK ?
+			VECTO : false
+		</button>
+		<div id="details46" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> -15|35|°C</p>
+			<p><strong>Réponse obtenue:</strong> Il n'y a aucune mention spécifique de température extérieure dans
+				le document fourni. Cependant, on peut déduire que les modèles RAK 30, RAK 45, RAK 70 et RAK 90
+				peuvent fonctionner à des températures extérieures comprises entre 15°C et 27°C, puisque ces valeurs
+				sont mentionnées dans le document pour les conditions de test.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,33</p>
+			<p><strong>Coverage :</strong> 50,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> 58a91a5c-51ac-494c-b5b4-c2e15212f7d3;Polytropic-RAK-20_1.pdf ;
+					7</p>
+				<p><strong> Page Document paragraphe:</strong>[6]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Le modèle RAK 30 restitue une puissance de 36,4 kW lorsque l’air est à 27 °C et l’eau à 27 °C
+					avec une humidité relative de 80 %. Dans ces conditions, la puissance absorbée est de 7,43 kW,
+					ce qui donne un coefficient de performance (COP) de 4,9. Avec de l’air à 15 °C et de l’eau à
+					26 °C (70 % HR), la puissance restituée passe à 29,4 kW, la puissance absorbée à 6,68 kW et le
+					COP à 4,4. Les connexions hydrauliques se font sur un diamètre de 63 mm et le débit d’eau
+					nominal est de 12 m³/h. Ce modèle nécessite une alimentation en triphasé 400V, consomme en
+					nominal 12,7 A (avec un maximum de 14,6 A), utilise 2 x 2,8 kg de gaz réfrigérant (R410a), et
+					est ventilé par deux ventilateurs de 7 000 m³/h chacun. Le poids net de la machine est de
+					236 kg, avec un poids brut de 279 kg. Le modèle RAK 30 est alimenté en 400 V triphasé + neutre,
+					50 Hz.
+
+					Le RAK 45 restitue 52,7 kW dans les mêmes conditions (air 27 °C, eau 27 °C, HR 80 %), pour 10,3
+					kW absorbés, soit un COP de 5,1. En conditions basses (air 15 °C, eau 26 °C, HR 70 %), la
+					puissance restituée est de 43,9 kW, celle absorbée de 9,4 kW, avec un COP de 4,7. Les connexions
+					hydrauliques sont également en diamètre 63 mm, le débit d’eau nominal est de 21 m³/h. La
+					consommation nominale est de 18,6 A (28 A en pic). Ce modèle utilise 2 x 3,7 kg de gaz
+					réfrigérant, la ventilation reste de 2 x 7 000 m³/h, et le poids net est de 268 kg (poids brut
+					316 kg). Le modèle RAK 45 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Le RAK 70 offre une puissance restituée de 89,1 kW (air 27 °C, eau 27 °C, HR 80 %) pour 17,5 kW
+					absorbés, avec un COP de 5,1. En basse température (air 15 °C, eau 26 °C, HR 70 %), la puissance
+					restituée est de 69,8 kW, l’absorption de 15,9 kW et le COP de 4,4. Les connexions hydrauliques
+					se font via une bride de 90 mm et le débit d’eau nominal atteint 34 m³/h. La consommation
+					nominale est de 31,4 A (maximum 45,0 A). Ce modèle fonctionne avec 2 x 4,5 kg de gaz réfrigérant
+					et une ventilation de 2 x 10 800 m³/h. Le poids net est de 500 kg pour un poids brut de 590 kg.
+					Le modèle RAK 70 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Enfin, le RAK 90 restitue 108,9 kW dans les conditions de 27 °C pour l’air et l’eau et 80 % HR,
+					avec une puissance absorbée de 21,4 kW et un COP de 5,1. Quand la température d’air est ramenée
+					à 15 °C et celle de l’eau à 26 °C (70 % HR), la puissance restituée est de 84,2 kW, la puissance
+					absorbée de 20,5 kW, et le COP chute à 4,1. Les raccordements hydrauliques se font également via
+					une bride de 90 mm, pour un débit d’eau de 43 m³/h. Ce modèle absorbe 37,2 A nominalement
+					(jusqu’à 54,0 A en pointe), fonctionne avec 2 x 5,5 kg de gaz réfrigérant et dispose de deux
+					ventilateurs de 10 800 m³/h chacun. Son poids net est de 530 kg et son poids brut atteint
+					620 kg. Le modèle RAK 90 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Tous ces modèles sont alimentés en 400 V triphasé + neutre, 50 Hz.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [6, 12]</p>
+				<p><strong>Document concerné :</strong> Polytropic-RAK-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details47')">
+			À quelle température de l'eau est-il possible d'installer la PAC RAK ?
+			VECTO : false
+		</button>
+		<div id="details47" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 15|30|°C</p>
+			<p><strong>Réponse obtenue:</strong> L'eau doit être à 27°C.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,46</p>
+			<p><strong>Coverage :</strong> 25,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> 58a91a5c-51ac-494c-b5b4-c2e15212f7d3;Polytropic-RAK-20_1.pdf ;
+					7</p>
+				<p><strong> Page Document paragraphe:</strong>[6]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Le modèle RAK 30 restitue une puissance de 36,4 kW lorsque l’air est à 27 °C et l’eau à 27 °C
+					avec une humidité relative de 80 %. Dans ces conditions, la puissance absorbée est de 7,43 kW,
+					ce qui donne un coefficient de performance (COP) de 4,9. Avec de l’air à 15 °C et de l’eau à
+					26 °C (70 % HR), la puissance restituée passe à 29,4 kW, la puissance absorbée à 6,68 kW et le
+					COP à 4,4. Les connexions hydrauliques se font sur un diamètre de 63 mm et le débit d’eau
+					nominal est de 12 m³/h. Ce modèle nécessite une alimentation en triphasé 400V, consomme en
+					nominal 12,7 A (avec un maximum de 14,6 A), utilise 2 x 2,8 kg de gaz réfrigérant (R410a), et
+					est ventilé par deux ventilateurs de 7 000 m³/h chacun. Le poids net de la machine est de
+					236 kg, avec un poids brut de 279 kg. Le modèle RAK 30 est alimenté en 400 V triphasé + neutre,
+					50 Hz.
+
+					Le RAK 45 restitue 52,7 kW dans les mêmes conditions (air 27 °C, eau 27 °C, HR 80 %), pour 10,3
+					kW absorbés, soit un COP de 5,1. En conditions basses (air 15 °C, eau 26 °C, HR 70 %), la
+					puissance restituée est de 43,9 kW, celle absorbée de 9,4 kW, avec un COP de 4,7. Les connexions
+					hydrauliques sont également en diamètre 63 mm, le débit d’eau nominal est de 21 m³/h. La
+					consommation nominale est de 18,6 A (28 A en pic). Ce modèle utilise 2 x 3,7 kg de gaz
+					réfrigérant, la ventilation reste de 2 x 7 000 m³/h, et le poids net est de 268 kg (poids brut
+					316 kg). Le modèle RAK 45 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Le RAK 70 offre une puissance restituée de 89,1 kW (air 27 °C, eau 27 °C, HR 80 %) pour 17,5 kW
+					absorbés, avec un COP de 5,1. En basse température (air 15 °C, eau 26 °C, HR 70 %), la puissance
+					restituée est de 69,8 kW, l’absorption de 15,9 kW et le COP de 4,4. Les connexions hydrauliques
+					se font via une bride de 90 mm et le débit d’eau nominal atteint 34 m³/h. La consommation
+					nominale est de 31,4 A (maximum 45,0 A). Ce modèle fonctionne avec 2 x 4,5 kg de gaz réfrigérant
+					et une ventilation de 2 x 10 800 m³/h. Le poids net est de 500 kg pour un poids brut de 590 kg.
+					Le modèle RAK 70 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Enfin, le RAK 90 restitue 108,9 kW dans les conditions de 27 °C pour l’air et l’eau et 80 % HR,
+					avec une puissance absorbée de 21,4 kW et un COP de 5,1. Quand la température d’air est ramenée
+					à 15 °C et celle de l’eau à 26 °C (70 % HR), la puissance restituée est de 84,2 kW, la puissance
+					absorbée de 20,5 kW, et le COP chute à 4,1. Les raccordements hydrauliques se font également via
+					une bride de 90 mm, pour un débit d’eau de 43 m³/h. Ce modèle absorbe 37,2 A nominalement
+					(jusqu’à 54,0 A en pointe), fonctionne avec 2 x 5,5 kg de gaz réfrigérant et dispose de deux
+					ventilateurs de 10 800 m³/h chacun. Son poids net est de 530 kg et son poids brut atteint
+					620 kg. Le modèle RAK 90 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Tous ces modèles sont alimentés en 400 V triphasé + neutre, 50 Hz.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [12]</p>
+				<p><strong>Document concerné :</strong> Polytropic-RAK-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details48')">
+			À quoi correspond l'erreur EE4 sur l'afficheur de la PAC RAK ?
+			VECTO : true
+		</button>
+		<div id="details48" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> erreur|phase|inverse|phase|alimentation</p>
+			<p><strong>Réponse obtenue:</strong> L'erreur EE4 sur l'afficheur de la PAC RAK correspond à une erreur
+				de phase (machine 400V triphasée).</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,43</p>
+			<p><strong>Coverage :</strong> 62,50%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> 58a91a5c-51ac-494c-b5b4-c2e15212f7d3;Polytropic-RAK-20_1.pdf ;
+					16</p>
+				<p><strong> Page Document paragraphe:</strong>[15]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Tableau des différents états de l'afficheur
+					- Affichage : "St-by"; Signification : L'appareil est en mode veille (Stand-by);Vérification :
+					Aucune vérification spécifique n’est requise.;Solution : Non applicable.
+					- Affichage : « Flow » éteint;Signification : Manque de débit d’eau. Vérifications : Vérifier le
+					débit d’eau dans la machine. Vérifier si le filtre est encrassé. Vérifier le réglage du
+					by-pass.Vérifier le réglage du détecteur de débit.; Solution : Non indiquée.
+					- Affichage : EE4; Signification : Erreur de phase (machine 400V triphasée).; Vérification :
+					Inverser deux des trois phases sur l’alimentation de l’appareil. Solution : Contacter votre
+					revendeur.
+					- Affichage : EE6; Signification : Température de sortie trop haute.; Vérifications : Vérifier
+					le débit d’eau dans la machine. Vérifier le réglage du by-pass. ;Solution : Contacter votre
+					revendeur.
+					- Affichage : EE7; signification : Problème de lecture mémoire.; Vérification : Remplacer la
+					carte electronique. ;Solution : Contacter votre revendeur.;
+					- Affichage : EE8 ;signification : Erreur de communication.;Vérification : Vérifier les
+					branchements entre l’afficheur et la carte électronique dans la machine. ; Solution : Contacter
+					votre revendeur
+					- Affichage : PP1; Signification : Erreur de sonde (entrée d’eau).; Vérification : Vérifier le
+					branchement correct de la sonde incriminée. ; Solution : Contacter votre revendeur.
+					- Affichage : PP3 / PP10; Signification : Erreur de sonde (évaporateur).;Vérification : Vérifier
+					le branchement correct de la sonde incriminée.;Solution : Contacter votre revendeur.
+					- Affichage : PP4 / PP11; Signification : Erreur de sonde (entrée compresseur).;Vérification :
+					Vérifier le branchement correct de la sonde incriminée.;Solution : Contacter votre revendeur.
+					- Affichage : PP5; Signification : Erreur de sonde (ambiance).;Vérification : Vérifier le
+					branchement correct de la sonde incriminée. ;Solution : Contacter votre revendeur.
+					- Affichage : PP6 / PP8;Signification : Écart de température trop grand entre l’entrée et la
+					sortie d’eau. ; Vérification : Vérifier le réglage du by-pass.;Solution : Contacter votre
+					revendeur.
+					- Affichage : PP7;Signification : Protection contre le dégivrage.;Vérification : Vérifier si la
+					température extérieure est descendue en dessous de la plage de fonctionnement de la
+					machine.;Solution : Contacter votre revendeur.;
+					- Affichage : HP / HP2 / PP9 / PP12; Signification : Pression de gaz trop haute.;Vérifications :
+					Vérifier le réglage du by-pass, Vérifier le réglage du détecteur de débit. ; Solutions :
+					Éteindre la machine au bouton marche/arrêt. Attendre quelques minutes. Remettre en
+					fonctionnement.
+
+					- Affichage : LP / LP2 / PP9 / PP10; Signification : Pression de gaz trop basse.Vérifications
+					:Vérifier la présence de gaz (le manomètre doit être entre 0,5 et 1 à l’arrêt).Vérifier si la
+					température extérieure est descendue sous la plage de fonctionnement.;Solutions : Remettre en
+					fonctionnement.Contacter votre revendeur si le problème persiste.
+
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [16]</p>
+				<p><strong>Document concerné :</strong> Polytropic-RAK-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details49')">
+			À quoi correspond l'erreur PP7 sur l'afficheur de la PAC RAK ?
+			VECTO : true
+		</button>
+		<div id="details49" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> protection|dégivrage|température|extérieur|bas</p>
+			<p><strong>Réponse obtenue:</strong> L'erreur PP7 sur l'afficheur de la PAC RAK correspond à une
+				protection contre le dégivrage. Il faut vérifier si la température extérieure est descendue en
+				dessous de la plage de fonctionnement de la machine. Contacter votre revendeur pour résoudre le
+				problème.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,39</p>
+			<p><strong>Coverage :</strong> 67,50%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> 58a91a5c-51ac-494c-b5b4-c2e15212f7d3;Polytropic-RAK-20_1.pdf ;
+					16</p>
+				<p><strong> Page Document paragraphe:</strong>[15]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Tableau des différents états de l'afficheur
+					- Affichage : "St-by"; Signification : L'appareil est en mode veille (Stand-by);Vérification :
+					Aucune vérification spécifique n’est requise.;Solution : Non applicable.
+					- Affichage : « Flow » éteint;Signification : Manque de débit d’eau. Vérifications : Vérifier le
+					débit d’eau dans la machine. Vérifier si le filtre est encrassé. Vérifier le réglage du
+					by-pass.Vérifier le réglage du détecteur de débit.; Solution : Non indiquée.
+					- Affichage : EE4; Signification : Erreur de phase (machine 400V triphasée).; Vérification :
+					Inverser deux des trois phases sur l’alimentation de l’appareil. Solution : Contacter votre
+					revendeur.
+					- Affichage : EE6; Signification : Température de sortie trop haute.; Vérifications : Vérifier
+					le débit d’eau dans la machine. Vérifier le réglage du by-pass. ;Solution : Contacter votre
+					revendeur.
+					- Affichage : EE7; signification : Problème de lecture mémoire.; Vérification : Remplacer la
+					carte electronique. ;Solution : Contacter votre revendeur.;
+					- Affichage : EE8 ;signification : Erreur de communication.;Vérification : Vérifier les
+					branchements entre l’afficheur et la carte électronique dans la machine. ; Solution : Contacter
+					votre revendeur
+					- Affichage : PP1; Signification : Erreur de sonde (entrée d’eau).; Vérification : Vérifier le
+					branchement correct de la sonde incriminée. ; Solution : Contacter votre revendeur.
+					- Affichage : PP3 / PP10; Signification : Erreur de sonde (évaporateur).;Vérification : Vérifier
+					le branchement correct de la sonde incriminée.;Solution : Contacter votre revendeur.
+					- Affichage : PP4 / PP11; Signification : Erreur de sonde (entrée compresseur).;Vérification :
+					Vérifier le branchement correct de la sonde incriminée.;Solution : Contacter votre revendeur.
+					- Affichage : PP5; Signification : Erreur de sonde (ambiance).;Vérification : Vérifier le
+					branchement correct de la sonde incriminée. ;Solution : Contacter votre revendeur.
+					- Affichage : PP6 / PP8;Signification : Écart de température trop grand entre l’entrée et la
+					sortie d’eau. ; Vérification : Vérifier le réglage du by-pass.;Solution : Contacter votre
+					revendeur.
+					- Affichage : PP7;Signification : Protection contre le dégivrage.;Vérification : Vérifier si la
+					température extérieure est descendue en dessous de la plage de fonctionnement de la
+					machine.;Solution : Contacter votre revendeur.;
+					- Affichage : HP / HP2 / PP9 / PP12; Signification : Pression de gaz trop haute.;Vérifications :
+					Vérifier le réglage du by-pass, Vérifier le réglage du détecteur de débit. ; Solutions :
+					Éteindre la machine au bouton marche/arrêt. Attendre quelques minutes. Remettre en
+					fonctionnement.
+
+					- Affichage : LP / LP2 / PP9 / PP10; Signification : Pression de gaz trop basse.Vérifications
+					:Vérifier la présence de gaz (le manomètre doit être entre 0,5 et 1 à l’arrêt).Vérifier si la
+					température extérieure est descendue sous la plage de fonctionnement.;Solutions : Remettre en
+					fonctionnement.Contacter votre revendeur si le problème persiste.
+
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [16]</p>
+				<p><strong>Document concerné :</strong> Polytropic-RAK-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details54')">
+			Quelle espace doit être laissé devant les grilles d'aspiration d'air de la PAC Advance-Master ?
+			VECTO : true
+		</button>
+		<div id="details54" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 1|m|30|cm|devant|3|m|sortie|ventilateur</p>
+			<p><strong>Réponse obtenue:</strong> 1 mètre (idéal) ou 30 centimètres (minimum requis).</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,40</p>
+			<p><strong>Coverage :</strong> 62,50%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					acab79bb-47df-42f4-89cd-4b324c28c2b0;Polytropic-Advance_Master-20_0.pdf ; 5</p>
+				<p><strong> Page Document paragraphe:</strong>[4]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Consignes Installation:
+					Lieu d'installation :
+					Installez l'appareil sur une surface horizontale, stable et dure (éventuellement réalisez un
+					socle en béton). Maintenez 1 m (30 cm minimum) d'espace libre devant les grilles verticales
+					d’aspiration d’air (a l’arriére de la machine) et 3 m a la sortie du ventilateur (a l'avant de
+					la machine) sur un espace complétement dégagé de tout obstacle.
+					Aspiration d’air : idéal : 1 mètre, minimum requis 30 centimètre
+					Refoulement d’air : idéal : libre, minimum requis 3 mètres
+					Vérifier que l'air rejeté par la machine ne sera pas ré aspiré.
+					Réservez suffisamment d'espace pour accéder au controle de température. </p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [5]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Advance_Master-20_0.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details59')">
+			Que signifie le FLO indiqué sur l'afficheur de la PAC Advance-Master ?
+			VECTO : false
+		</button>
+		<div id="details59" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> non|détect|eau</p>
+			<p><strong>Réponse obtenue:</strong> Le FLO indiqué sur l'afficheur de la PAC Advance-Master signifie
+				"Manque de débit d'eau".</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,38</p>
+			<p><strong>Coverage :</strong> 57,14%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					acab79bb-47df-42f4-89cd-4b324c28c2b0;Polytropic-Advance_Master-20_0.pdf ; 11</p>
+				<p><strong> Page Document paragraphe:</strong>[10]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Tableau des différents états de l'afficheur
+					- Affichage : "St-by"; Signification : L'appareil est en mode veille (Stand-by);Vérification :
+					Aucune vérification spécifique n’est requise.;Solution : Non applicable.
+					- Affichage : « Flow » éteint;Signification : Manque de débit d’eau. Vérifications : Vérifier le
+					débit d’eau dans la machine. Vérifier si le filtre est encrassé. Vérifier le réglage du
+					by-pass.Vérifier le réglage du détecteur de débit.; Solution : Non indiquée.
+					- Affichage : EE4; Signification : Erreur de phase (machine 400V triphasée).; Vérification :
+					Inverser deux des trois phases sur l’alimentation de l’appareil. Solution : Contacter votre
+					revendeur.
+					- Affichage : EE6; Signification : Température de sortie trop haute.; Vérifications : Vérifier
+					le débit d’eau dans la machine. Vérifier le réglage du by-pass. ;Solution : Contacter votre
+					revendeur.
+					- Affichage : EE7; signification : Problème de lecture mémoire.; Vérification : Remplacer la
+					carte electronique. ;Solution : Contacter votre revendeur.;
+					- Affichage : EE8 ;signification : Erreur de communication.;Vérification : Vérifier les
+					branchements entre l’afficheur et la carte électronique dans la machine. ; Solution : Contacter
+					votre revendeur
+					- Affichage : PP1; Signification : Erreur de sonde (entrée d’eau).; Vérification : Vérifier le
+					branchement correct de la sonde incriminée. ; Solution : Contacter votre revendeur.
+					- Affichage : PP3 / PP10; Signification : Erreur de sonde (évaporateur).;Vérification : Vérifier
+					le branchement correct de la sonde incriminée.;Solution : Contacter votre revendeur.
+					- Affichage : PP4 / PP11; Signification : Erreur de sonde (entrée compresseur).;Vérification :
+					Vérifier le branchement correct de la sonde incriminée.;Solution : Contacter votre revendeur.
+					- Affichage : PP5; Signification : Erreur de sonde (ambiance).;Vérification : Vérifier le
+					branchement correct de la sonde incriminée. ;Solution : Contacter votre revendeur.
+					- Affichage : PP6 / PP8;Signification : Écart de température trop grand entre l’entrée et la
+					sortie d’eau. ; Vérification : Vérifier le réglage du by-pass.;Solution : Contacter votre
+					revendeur.
+					- Affichage : PP7;Signification : Protection contre le dégivrage.;Vérification : Vérifier si la
+					température extérieure est descendue en dessous de la plage de fonctionnement de la
+					machine.;Solution : Contacter votre revendeur.;
+					- Affichage : HP / HP2 / PP9 / PP12; Signification : Pression de gaz trop haute.;Vérifications :
+					Vérifier le réglage du by-pass, Vérifier le réglage du détecteur de débit. ; Solutions :
+					Éteindre la machine au bouton marche/arrêt. Attendre quelques minutes. Remettre en
+					fonctionnement.
+
+					- Affichage : LP / LP2 / PP9 / PP10; Signification : Pression de gaz trop basse.Vérifications
+					:Vérifier la présence de gaz (le manomètre doit être entre 0,5 et 1 à l’arrêt).Vérifier si la
+					température extérieure est descendue sous la plage de fonctionnement.;Solutions : Remettre en
+					fonctionnement.Contacter votre revendeur si le problème persiste.
+
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [8, 10]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Advance_Master-20_0.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details60')">
+			À quoi correspond l'erreur PP7 sur l'afficheur de la PAC Advance-Master ?
+			VECTO : false
+		</button>
+		<div id="details60" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> protection|dégivrage|température|extérieur|bas</p>
+			<p><strong>Réponse obtenue:</strong> L'erreur PP7 sur l'afficheur de la PAC Advance-Master correspond à
+				une protection contre le dégivrage. Il faut vérifier si la température extérieure est descendue en
+				dessous de la plage de fonctionnement de la machine. Contacter votre revendeur pour résoudre le
+				problème.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,37</p>
+			<p><strong>Coverage :</strong> 67,50%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					acab79bb-47df-42f4-89cd-4b324c28c2b0;Polytropic-Advance_Master-20_0.pdf ; 11</p>
+				<p><strong> Page Document paragraphe:</strong>[10]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Tableau des différents états de l'afficheur
+					- Affichage : "St-by"; Signification : L'appareil est en mode veille (Stand-by);Vérification :
+					Aucune vérification spécifique n’est requise.;Solution : Non applicable.
+					- Affichage : « Flow » éteint;Signification : Manque de débit d’eau. Vérifications : Vérifier le
+					débit d’eau dans la machine. Vérifier si le filtre est encrassé. Vérifier le réglage du
+					by-pass.Vérifier le réglage du détecteur de débit.; Solution : Non indiquée.
+					- Affichage : EE4; Signification : Erreur de phase (machine 400V triphasée).; Vérification :
+					Inverser deux des trois phases sur l’alimentation de l’appareil. Solution : Contacter votre
+					revendeur.
+					- Affichage : EE6; Signification : Température de sortie trop haute.; Vérifications : Vérifier
+					le débit d’eau dans la machine. Vérifier le réglage du by-pass. ;Solution : Contacter votre
+					revendeur.
+					- Affichage : EE7; signification : Problème de lecture mémoire.; Vérification : Remplacer la
+					carte electronique. ;Solution : Contacter votre revendeur.;
+					- Affichage : EE8 ;signification : Erreur de communication.;Vérification : Vérifier les
+					branchements entre l’afficheur et la carte électronique dans la machine. ; Solution : Contacter
+					votre revendeur
+					- Affichage : PP1; Signification : Erreur de sonde (entrée d’eau).; Vérification : Vérifier le
+					branchement correct de la sonde incriminée. ; Solution : Contacter votre revendeur.
+					- Affichage : PP3 / PP10; Signification : Erreur de sonde (évaporateur).;Vérification : Vérifier
+					le branchement correct de la sonde incriminée.;Solution : Contacter votre revendeur.
+					- Affichage : PP4 / PP11; Signification : Erreur de sonde (entrée compresseur).;Vérification :
+					Vérifier le branchement correct de la sonde incriminée.;Solution : Contacter votre revendeur.
+					- Affichage : PP5; Signification : Erreur de sonde (ambiance).;Vérification : Vérifier le
+					branchement correct de la sonde incriminée. ;Solution : Contacter votre revendeur.
+					- Affichage : PP6 / PP8;Signification : Écart de température trop grand entre l’entrée et la
+					sortie d’eau. ; Vérification : Vérifier le réglage du by-pass.;Solution : Contacter votre
+					revendeur.
+					- Affichage : PP7;Signification : Protection contre le dégivrage.;Vérification : Vérifier si la
+					température extérieure est descendue en dessous de la plage de fonctionnement de la
+					machine.;Solution : Contacter votre revendeur.;
+					- Affichage : HP / HP2 / PP9 / PP12; Signification : Pression de gaz trop haute.;Vérifications :
+					Vérifier le réglage du by-pass, Vérifier le réglage du détecteur de débit. ; Solutions :
+					Éteindre la machine au bouton marche/arrêt. Attendre quelques minutes. Remettre en
+					fonctionnement.
+
+					- Affichage : LP / LP2 / PP9 / PP10; Signification : Pression de gaz trop basse.Vérifications
+					:Vérifier la présence de gaz (le manomètre doit être entre 0,5 et 1 à l’arrêt).Vérifier si la
+					température extérieure est descendue sous la plage de fonctionnement.;Solutions : Remettre en
+					fonctionnement.Contacter votre revendeur si le problème persiste.
+
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [16]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Advance_Master-20_0.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details64')">
+			Quelle espace doit être laissé devant les grilles d'aspiration d'air de la PAC Pixel ?
+			VECTO : true
+		</button>
+		<div id="details64" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 1|m|30|cm|devant|3|m|sortie|ventilateur</p>
+			<p><strong>Réponse obtenue:</strong> 1 m (30 cm minimum) d'espace libre a d’air (a de la machine).</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,31</p>
+			<p><strong>Coverage :</strong> 84,62%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> ed0d820a-78c9-4a74-b4f9-c462e01bb857;Polytropic-Pixel-20_1.pdf
+					; 6</p>
+				<p><strong> Page Document paragraphe:</strong>[5]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Installation
+					Mise en place
+					Lieu d'installation
+					Attention L'appareil doit étre installé a l'extérieur a plus de 2 m du bassin selon les lois en
+					vigueur (NF C 15 100).
+					Installez l'appareil sur une surface horizontale, stable et dure (éventuellement réalisez un
+					socle en béton). Maintenez 1 m (30 cm minimum) d'espace libre a d’air (a de la machine) et 3 m a
+					la sortie du ventilateur (a l’'avant de la machine) sur un espace complétement dégagé de tout
+					obstacle.
+					Vérifier que l'air rejeté par la machine ne sera pas réaspiré.
+					Réservez suffisamment d'espace pour accéder au controle de température</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [6]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Pixel-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-yellow-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details67')">
+			À quelle température de l'eau est-il possible d'installer la PAC Pixel ?
+			VECTO : true
+		</button>
+		<div id="details67" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 15|35|°C</p>
+			<p><strong>Réponse obtenue:</strong> La température de l'eau comprise entre 15 et 30°C.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,42</p>
+			<p><strong>Coverage :</strong> 66,67%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> ed0d820a-78c9-4a74-b4f9-c462e01bb857;Polytropic-Pixel-20_1.pdf
+					; 8</p>
+				<p><strong> Page Document paragraphe:</strong>[7]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Utilisation
+					Mise en eau
+
+					Une fois l'appareil relié au circuit d'eau, et relié au circuit électrique par un professionnel,
+					s'assurer que :
+					- La machine est bien horizontale (niveau).
+					- Le circuit d'eau est purgé de l’air qui pourrait rester dans les tuyaux et la machine.
+					- Le circuit d'eau soit bien raccordé (pas de fuites ni de détérioration des raccords
+					hydrauliques, bon serrage des raccords a visser).
+					- Le circuit électrique est bien raccordé (bon serrage des cables sur les bornes et disjoncteur
+					intermédiaire), bien isolé et relié a la terre.
+					- Les conditions d’installation et d'utilisation décrites précédemment sont bien respectées.
+					- La température extérieure est comprise entre : o +10 et+ 35°C
+					- La température de comprise entre 15 et 30°C.
+
+					Vous pouvez alors mettre votre machine en marche, pour cela, veillez a bien suivre les points
+					suivants dans l’ordre pour chaque mise en route de la machine en début de saison):
+					- Démarrer la pompe du systéme de filtration.
+					- Mettre la pompe a chaleur sous tension et démarrer-la.
+					- La machine se met en route aprés une temporisation de quelques minutes.
+					- Régler la température (chapitre « Régulation »).
+
+					Aprés ces opérations, mettez la couverture sur la piscine et laissez la pompe a chaleur
+					fonctionner plusieurs jours afin de chauffer toute l'eau de la piscine.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [8]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Pixel-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-red-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details2')">
+			La PAC NEO-INVERTER répond-elle à la norme IPX4 ?
+			VECTO : true
+		</button>
+		<div id="details2" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> oui</p>
+			<p><strong>Réponse obtenue:</strong> La PAC NEO-INVERTER répond effectivement à la norme IPX4.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,40</p>
+			<p><strong>Coverage :</strong> 37,50%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					a0489ff4-7b92-40eb-b40f-f4bb64f87eb0;Polytropic-Neo_Inverter-2024.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre -3°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit NEO INVERTER 05 la puissance absorbée max est de 1,3kW, le poids est de 47 kg
+					- Pour le produit NEO INVERTER 07, la puissance absorbée max est de 1,6kW, le poids est de 47 kg
+					- Pour le produit NEO INVERTER 08, la puissance absorbée max est de 1,8kW, le poids est de 53 kg
+					- Pour le produit NEO INVERTER 10, la puissance absorbée max est de 2.5kW, le poids est de 53 kg
+					- Pour le produit NEO INVERTER 12, la puissance absorbée max est de 2.9kW, le poids est de 57 kg
+					- Pour le produit NEO INVERTER 15, la puissance absorbée max est de 4.1kW, le poids est de 78 kg
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Neo_Inverter-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-red-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details4')">
+			Quel réfrigérant utilise la PAC NEO-INVERTER ?
+			VECTO : false
+		</button>
+		<div id="details4" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> R32|faible|vitesse|combustion</p>
+			<p><strong>Réponse obtenue:</strong> Je n'ai trouvé aucune information sur le réfrigérant utilisé par la
+				PAC NEO-INVERTER dans les documents fournis.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,47</p>
+			<p><strong>Coverage :</strong> 11,76%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					a0489ff4-7b92-40eb-b40f-f4bb64f87eb0;Polytropic-Neo_Inverter-2024.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre -3°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit NEO INVERTER 05 la puissance absorbée max est de 1,3kW, le poids est de 47 kg
+					- Pour le produit NEO INVERTER 07, la puissance absorbée max est de 1,6kW, le poids est de 47 kg
+					- Pour le produit NEO INVERTER 08, la puissance absorbée max est de 1,8kW, le poids est de 53 kg
+					- Pour le produit NEO INVERTER 10, la puissance absorbée max est de 2.5kW, le poids est de 53 kg
+					- Pour le produit NEO INVERTER 12, la puissance absorbée max est de 2.9kW, le poids est de 57 kg
+					- Pour le produit NEO INVERTER 15, la puissance absorbée max est de 4.1kW, le poids est de 78 kg
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Neo_Inverter-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-red-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details9')">
+			Quels sont les normes standards de qualité de l'eau à respecter pour la PAC CRYO Inverter ?
+			VECTO : false
+		</button>
+		<div id="details9" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> concentration|chlore|2,5|ppm|ph|6,9|8</p>
+			<p><strong>Réponse obtenue:</strong> La qualité de l'eau nécessaire pour la PAC CRYO Inverter est
+				définie par la norme NF-EN-IB7I3-3.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,44</p>
+			<p><strong>Coverage :</strong> 56,25%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					a0489ff4-7b92-40eb-b40f-f4bb64f87eb0;Polytropic-Neo_Inverter-2024.pdf ; 6</p>
+				<p><strong> Page Document paragraphe:</strong>[5]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Raccordement hydraulique:
+					- Qualité de l'eau nécessaire pour cet appareil: NF-EN-IB7I3-3
+					- LA PAC est compatible avec tout type de traitement de l'eau. La PAC est impérativement
+					raccordée en tuyau PVC de diamètre 50 mm sur le circuit hydraulique de la piscine, après le
+					filtre et avant le système de traitement quel qu'il soit (pompes doseuses CL, pH, BR et/ou
+					électrolyseur).
+					- Respecter le sens de raccordement hydraulique (bleu = eau entrante, rouge = eau sortante)
+					- Installer obligatoirement un by-pass pour faciliter les interventions sur la PAC.
+					- Avant de raccorder les tuyaux PVC sur la PAC, s'assurer que le circuit a été préalablement
+					nettoyé de tous résidus de travaux (cailloux, terre etc).</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [9]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Neo_Inverter-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-red-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details14')">
+			Quel réfrigérant utilise la PAC Morpheo ?
+			VECTO : false
+		</button>
+		<div id="details14" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> R32|faible|vitesse|combustion</p>
+			<p><strong>Réponse obtenue:</strong> Je n'ai trouvé aucune information sur le réfrigérant utilisé par la
+				PAC Morpheo dans les documents fournis.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,54</p>
+			<p><strong>Coverage :</strong> 17,65%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					6414da2a-233c-4d62-ac56-76bfcea181ba;Polytropic-Morpheo-2023.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre -3°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit MORPHEO XXS, la puissance absorbée max est de 1,0kW, le poids est de 48 kg
+					- Pour le produit MORPHEO XS, la puissance absorbée max est de 1,5kW, le poids est de 50 kg
+					- Pour le produit MORPHEO S, la puissance absorbée max est de 1,6kW, le poids est de 52 kg
+					- Pour le produit MORPHEO S+, la puissance absorbée max est de 2.5kW, le poids est de 54 kg</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Morpheo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-red-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details16')">
+			Dois-je utiliser un DDR pour l'alimentation électrique de la PAC Morpheo ?
+			VECTO : false
+		</button>
+		<div id="details16" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> protégé|protection|différentiel|résiduel|30|mA</p>
+			<p><strong>Réponse obtenue:</strong> Non, car il n'y a aucune mention de DDR (Disque Dur Interne) dans
+				les spécificités d'installation électrique par modèle.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,53</p>
+			<p><strong>Coverage :</strong> 26,32%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					6414da2a-233c-4d62-ac56-76bfcea181ba;Polytropic-Morpheo-2023.pdf ; 7</p>
+				<p><strong> Page Document paragraphe:</strong>[6]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Spécificités Installation électrique par modèle:
+
+					- Pour un modèle Morpheo XXS ou XS: l'alimentation nécessaire est 3G 230V, la protection de tête
+					de ligne doit être de 10 A, la longueur maximale du cable d'alimentation en fonction de la
+					section doit être de :
+					- 34 m pour du 2.5mm carré
+					- 54 m pour du 4mm carré
+					- 80 m pour du 6mm carré
+					- 135 m pour du 10mm carré
+
+					- Pour un modèle Morpheo S ou S+: l'alimentation nécessaire est 3G 230V, la protection de tête
+					de ligne doit être de 16 A, la longueur maximale du cable d'alimentation en fonction de la
+					section doit être de :
+					- 25 m pour du 2.5mm carré
+					- 35 m pour du 4mm carré
+					- 45 m pour du 6mm carré
+					- 80 m pour du 10mm carré
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Morpheo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-red-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details19')">
+			Quels sont les normes standards de qualité de l'eau à respecter pour la PAC CRYO Inverter ?
+			VECTO : false
+		</button>
+		<div id="details19" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> concentration|chlore|2,5|ppm|ph|6,9|8</p>
+			<p><strong>Réponse obtenue:</strong> La qualité de l'eau nécessaire pour la PAC CRYO Inverter est
+				définie par la norme NF-EN-IB7I3-3.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,44</p>
+			<p><strong>Coverage :</strong> 56,25%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					6414da2a-233c-4d62-ac56-76bfcea181ba;Polytropic-Morpheo-2023.pdf ; 6</p>
+				<p><strong> Page Document paragraphe:</strong>[5]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Raccordement hydraulique:
+					- Qualité de l'eau nécessaire pour cet appareil: NF-EN-IB7I3-3
+					- LA PAC est compatible avec tout type de traitement de l'eau. La PAC est impérativement
+					raccordée en tuyau PVC de diamètre 50 mm sur le circuit hydraulique de la piscine, après le
+					filtre et avant le système de traitement quel qu'il soit (pompes doseuses CL, pH, BR et/ou
+					électrolyseur).
+					- Respecter le sens de raccordement hydraulique (bleu = eau entrante, rouge = eau sortante)
+					- Installer obligatoirement un by-pass pour faciliter les interventions sur la PAC.
+					- Avant de raccorder les tuyaux PVC sur la PAC, s'assurer que le circuit a été préalablement
+					nettoyé de tous résidus de travaux (cailloux, terre etc).</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [9]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Morpheo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-red-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details28')">
+			Quelle dimension fait la JD PAC Access 3 ?
+			VECTO : false
+		</button>
+		<div id="details28" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 832|312|700|mm</p>
+			<p><strong>Réponse obtenue:</strong> 57 kg.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,54</p>
+			<p><strong>Coverage :</strong> 100,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					45cfd182-291e-4811-9f20-f4306809d6bc;Polytropic-JD_PAC_Access-2024.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre 0°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit JD PAC ACCESS 1, la puissance absorbée max est de 1,5kW, le poids est de 38 kg
+					- Pour le produit JD PAC ACCESS 2, la puissance absorbée max est de 1,6kW, le poids est de 40 kg
+					- Pour le produit JD PAC ACCESS 3, la puissance absorbée max est de 2,4kW, le poids est de 57 kg
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [6]</p>
+				<p><strong>Document concerné :</strong> Polytropic-JD_PAC_Access-2024.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-red-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details32')">
+			La PAC Ottimo répond-elle à la norme IPX4 ?
+			VECTO : true
+		</button>
+		<div id="details32" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> oui</p>
+			<p><strong>Réponse obtenue:</strong> La PAC Ottimo répond à la norme IPX4.</p>
+			<p><strong>F1 Score :</strong> 1,00</p>
+			<p><strong>Distance cosine :</strong> 0,41</p>
+			<p><strong>Coverage :</strong> 57,14%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					7cc03a1b-a306-4895-9473-ca98a8fbe4f4;Polytropic-Ottimo-2023.pdf ; 2</p>
+				<p><strong> Page Document paragraphe:</strong>[1]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					- Température de fonctionnement: entre I0°C et 38°C
+					- Alimentation: 230 V, 50 Hz IPX4
+					- Altitude maximale d'usage: 2000 m
+
+					- Pour le produit Ottima X, la puissance absorbée max est de 1,5kW, le poids est de 62.8kg
+					- Pour le Produit: Ottimo S la puissance absorbée max est de 2,4kW, le poids est de 67kg
+					- Pour le Produit: Ottimo S+ la puissance absorbée max est de 2,6kW, le poids est de 68.2kg
+					- Pour le Produit: Ottimo M la puissance absorbée max est de 3,3kW, le poids est de 73.8kg
+					- Pour le Produit: Ottimo M la puissance absorbée max est de 3,6kW, le poids est de 74.4kg</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [2]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Ottimo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-red-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details34')">
+			Quel réfrigérant utilise la PAC Ottimo ?
+			VECTO : false
+		</button>
+		<div id="details34" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> R32|faible|vitesse|combustion</p>
+			<p><strong>Réponse obtenue:</strong> L'eau.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,51</p>
+			<p><strong>Coverage :</strong> 0,00%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					7cc03a1b-a306-4895-9473-ca98a8fbe4f4;Polytropic-Ottimo-2023.pdf ; 8</p>
+				<p><strong> Page Document paragraphe:</strong>[7]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Utilisation de La PAC OTTIMO:
+
+					- Couvrir le bassin l'aide d'une couverture (bache a bulles, volet...), Afin d'éviter les
+					déperditions de chaleur
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Ottimo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-red-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details36')">
+			Dois-je utiliser un DDR pour l'alimentation électrique de la PAC Ottimo ?
+			VECTO : false
+		</button>
+		<div id="details36" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> protégé|protection|différentiel|résiduel|30|mA</p>
+			<p><strong>Réponse obtenue:</strong> Il n'y a aucune mention de DDR dans les spécificités d'installation
+				électrique par modèle Ottimo.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,50</p>
+			<p><strong>Coverage :</strong> 33,33%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong>
+					7cc03a1b-a306-4895-9473-ca98a8fbe4f4;Polytropic-Ottimo-2023.pdf ; 7</p>
+				<p><strong> Page Document paragraphe:</strong>[6]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Spécificités Installation électrique par modèle Ottimo:
+
+					- Pour un modèle Ottimo XS ou S: l'alimentation nécessaire est 3G 230V, la protection de tête de
+					ligne doit être de 16 A, la longueur maximale du cable d'alimentation en fonction de la section
+					doit être de :
+					- 29 m pour du 2.5mm carré
+					- 45 m pour du 4mm carré
+					- 66 m pour du 6mm carré
+					- 110 m pour du 10mm carré
+
+					- Pour un modèle Ottimo S+: l'alimentation nécessaire est 3G 230V, la protection de tête de
+					ligne doit être de 20 A, la longueur maximale du cable d'alimentation en fonction de la section
+					doit être de :
+					- 24 m pour du 2.5mm carré
+					- 39 m pour du 4mm carré
+					- 56 m pour du 6mm carré
+					- 96 m pour du 10mm carré
+
+					- Pour un modèle Ottimo M ou XM: l'alimentation nécessaire est 3G 230V, la protection de tête de
+					ligne doit être de 25 A, la longueur maximale du cable d'alimentation en fonction de la section
+					doit être de :
+					- 19 m pour du 2.5mm carré
+					- 30 m pour du 4mm carré
+					- 44 m pour du 6mm carré
+					- 75 m pour du 10mm carré
+				</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [4]</p>
+				<p><strong>Document concerné :</strong> Polytropic-Ottimo-2023.pdf</p>
+			</div>
+		</div>
+	</div>
+	<div class="border mb-2 p-4 rounded-lg bg-red-100">
+		<button class="w-full text-left font-semibold" onclick="toggleDetails('details50')">
+			Comment obtenir de l'aide pour la PAC RAK en France ?
+			VECTO : false
+		</button>
+		<div id="details50" class="hidden mt-2">
+			<p><strong>Réponse attendue:</strong> 4|78|56|93|96</p>
+			<p><strong>Réponse obtenue:</strong> Pour obtenir de l'aide pour la PAC RAK en France, vous pouvez
+				contacter le fabricant ou un distributeur autorisé. Cependant, les informations fournies dans le
+				document ne mentionnent pas d'informations de contact spécifiques pour obtenir de l'aide technique
+				ou commerciale. Il est recommandé de consulter le site web du fabricant ou de rechercher des
+				contacts locaux pour obtenir assistance.</p>
+			<p><strong>F1 Score :</strong> 0,00</p>
+			<p><strong>Distance cosine :</strong> 0,51</p>
+			<p><strong>Coverage :</strong> 44,07%</p>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages remontées :</strong> 58a91a5c-51ac-494c-b5b4-c2e15212f7d3;Polytropic-RAK-20_1.pdf ;
+					7</p>
+				<p><strong> Page Document paragraphe:</strong>[6]
+				</p>
+				<p><strong>Paragraphes remontés :</strong>
+					Le modèle RAK 30 restitue une puissance de 36,4 kW lorsque l’air est à 27 °C et l’eau à 27 °C
+					avec une humidité relative de 80 %. Dans ces conditions, la puissance absorbée est de 7,43 kW,
+					ce qui donne un coefficient de performance (COP) de 4,9. Avec de l’air à 15 °C et de l’eau à
+					26 °C (70 % HR), la puissance restituée passe à 29,4 kW, la puissance absorbée à 6,68 kW et le
+					COP à 4,4. Les connexions hydrauliques se font sur un diamètre de 63 mm et le débit d’eau
+					nominal est de 12 m³/h. Ce modèle nécessite une alimentation en triphasé 400V, consomme en
+					nominal 12,7 A (avec un maximum de 14,6 A), utilise 2 x 2,8 kg de gaz réfrigérant (R410a), et
+					est ventilé par deux ventilateurs de 7 000 m³/h chacun. Le poids net de la machine est de
+					236 kg, avec un poids brut de 279 kg. Le modèle RAK 30 est alimenté en 400 V triphasé + neutre,
+					50 Hz.
+
+					Le RAK 45 restitue 52,7 kW dans les mêmes conditions (air 27 °C, eau 27 °C, HR 80 %), pour 10,3
+					kW absorbés, soit un COP de 5,1. En conditions basses (air 15 °C, eau 26 °C, HR 70 %), la
+					puissance restituée est de 43,9 kW, celle absorbée de 9,4 kW, avec un COP de 4,7. Les connexions
+					hydrauliques sont également en diamètre 63 mm, le débit d’eau nominal est de 21 m³/h. La
+					consommation nominale est de 18,6 A (28 A en pic). Ce modèle utilise 2 x 3,7 kg de gaz
+					réfrigérant, la ventilation reste de 2 x 7 000 m³/h, et le poids net est de 268 kg (poids brut
+					316 kg). Le modèle RAK 45 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Le RAK 70 offre une puissance restituée de 89,1 kW (air 27 °C, eau 27 °C, HR 80 %) pour 17,5 kW
+					absorbés, avec un COP de 5,1. En basse température (air 15 °C, eau 26 °C, HR 70 %), la puissance
+					restituée est de 69,8 kW, l’absorption de 15,9 kW et le COP de 4,4. Les connexions hydrauliques
+					se font via une bride de 90 mm et le débit d’eau nominal atteint 34 m³/h. La consommation
+					nominale est de 31,4 A (maximum 45,0 A). Ce modèle fonctionne avec 2 x 4,5 kg de gaz réfrigérant
+					et une ventilation de 2 x 10 800 m³/h. Le poids net est de 500 kg pour un poids brut de 590 kg.
+					Le modèle RAK 70 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Enfin, le RAK 90 restitue 108,9 kW dans les conditions de 27 °C pour l’air et l’eau et 80 % HR,
+					avec une puissance absorbée de 21,4 kW et un COP de 5,1. Quand la température d’air est ramenée
+					à 15 °C et celle de l’eau à 26 °C (70 % HR), la puissance restituée est de 84,2 kW, la puissance
+					absorbée de 20,5 kW, et le COP chute à 4,1. Les raccordements hydrauliques se font également via
+					une bride de 90 mm, pour un débit d’eau de 43 m³/h. Ce modèle absorbe 37,2 A nominalement
+					(jusqu’à 54,0 A en pointe), fonctionne avec 2 x 5,5 kg de gaz réfrigérant et dispose de deux
+					ventilateurs de 10 800 m³/h chacun. Son poids net est de 530 kg et son poids brut atteint
+					620 kg. Le modèle RAK 90 est alimenté en 400 V triphasé + neutre, 50 Hz.
+
+					Tous ces modèles sont alimentés en 400 V triphasé + neutre, 50 Hz.</p>
+			</div>
+			<div class="mt-2 p-2 bg-gray-200 rounded-lg">
+				<p><strong>Pages concernées :</strong> [16]</p>
+				<p><strong>Document concerné :</strong> Polytropic-RAK-20_1.pdf</p>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	function toggleDetails(id) {
+		var elem = document.getElementById(id);
+		elem.classList.toggle("hidden");
+	}
+</script>
+</body>
+
+</html>
