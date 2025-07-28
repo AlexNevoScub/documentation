@@ -1,6 +1,6 @@
 # Isia - Decision
 
-## Semaine du 21/07/2025
+## Semaine 30 du 21/07/2025
 
 - Avancées sur le POC => il est devenu utilisable 
 
@@ -19,4 +19,4 @@
 
 - idée pour contrer ce résidus de mauvaises réponses : chunker phrase par phrase ou ligne par ligne et RAGger dessus pour voir si on a un des réponses contenues dans une phrases qui sont noyées dans la "masse" d'un paragraphe
 
-## Semaine du 28/07/2025
+## Semaine 31 du 28/07/2025
