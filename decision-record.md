@@ -13,7 +13,7 @@
 
 (extrait rapport ultime ultime)
 
-[rapport-ultime-ultime.html](..%2Fisia-platform-v2%2Fdocs%2Frapport-ultime-ultime.html)
+[rapport-ultime-ultime.html](./rapport-ultime-ultime.html)
 
 - Conclusion de la semaine : on est solide sur nos bases avec ce nouveau système d'OCR on est capable de savoir très excatement les problèmes de qualité qu'on, à quoi ils sont dues
 
