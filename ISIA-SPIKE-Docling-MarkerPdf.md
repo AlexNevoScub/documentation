@@ -89,6 +89,7 @@ Point faible : demande à faire un test de dispo de l'application lorsque que l'
 En-têtes rapports de tests qualités effectués : 
 
 - Docling:
+
  ![img_3.png](img_3.png)
 
 - Marker-pdf (rapport à refaire):
