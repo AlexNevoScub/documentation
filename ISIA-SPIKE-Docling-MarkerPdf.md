@@ -67,14 +67,6 @@ L’objectif de cette étude est de comparer deux bibliothèques de traitement d
 | 1    | Docling        | Par défaut        | 15/42/42            |
 | 2    | Marker PDF     | Par défaut  | 30/32/36            |
 
-
-![img_3.png](img_3.png)
-Rapport Docling brut
-
-
-![img_2.png](img_2.png)
-Rapport Marker-pdf brut (à changer => pb d'index des pages qui donne mauvais score de vecto)
-
 ---
 
 ## Conclusion
@@ -91,3 +83,14 @@ Adopter **Marker PDF** comme moteur OCR principal dans le projet :
 Argument principale : on gagne du temps et de la qualité, de façon indéniable, sur la lecture documentaire, car ce qu'on perd sur le temps d'exécution est rattrapé par le temps qu'on doit passer à corriger l'extraction de Docling
 
 Point faible : demande à faire un test de dispo de l'application lorsque que l'on va charger des documents en situation réelle (machines équivalent prod, donc pas valable en recette)
+
+## Annexes
+
+En-têtes rapports de tests qualités effectués : 
+
+- Docling:
+ ![img_3.png](img_3.png)
+
+- Marker-pdf (rapport à refaire):
+
+![img_2.png](img_2.png)
