@@ -90,7 +90,7 @@ En-têtes rapports de tests qualités effectués :
 
 - Docling:
 
- ![img_3.png](img_3.png)
+![img_4.png](img_4.png)
 
 - Marker-pdf (rapport à refaire):
 
