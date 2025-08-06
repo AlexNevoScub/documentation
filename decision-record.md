@@ -27,6 +27,19 @@
 
 [rapport-chunks-phrases.html](./rapport-chunks-phrases.html)
 
+- Second test avec un seuil plus restrictif (0.25) => meilleurs résultats 
 
 Reflexion sur l'integration de golden queries
 Reflexion de l'intégration d'un lexique
+Lancement réflexion sur l'automatisation de l'OCR à améliorer
+
+- tests et début d'implem nouvelle lib marker-pdf
+![img_2.png](img_2.png)
+
+(problème avec une synchro des docs et des pages, ne pas tenir compte du F1 score et du ratio de vecto)
+
+## VS 
+
+![img_3.png](img_3.png)
+
+qui est le rapport Docling de base (sans retouche de ma part sur les paragrahpes OCR-isés)
